@@ -1,0 +1,568 @@
+{
+  "success": 20,
+  "total": 20,
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 20,
+    "total": 20,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "TS2304": {
+        "occurrences": 166,
+        "example": "ERROR TS2304: Cannot find name 'arraySetter'.\n   :\n 3 │ arraySetter([1, 2, 3, 4, 5]);\n   │ ~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(3,5)\r"
+      },
+      "TS1110": {
+        "occurrences": 12,
+        "example": "ERROR TS1110: Type expected.\n     :\n 264 │ for (let _i_ in mapGetter()) {\n     │             ^\n     └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(264,17)\r"
+      },
+      "TS1005": {
+        "occurrences": 4,
+        "example": "ERROR TS1005: ';' expected.\n     :\n 264 │ for (let _i_ in mapGetter()) {\n     │          ~~~\n     └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(264,14)\r"
+      },
+      "TS1155": {
+        "occurrences": 2,
+        "example": "ERROR TS1155: 'const' declarations must be initialized.\n     :\n 274 │ for (const ii in mapGetter()) {\n     │            ~~\n     └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(274,16)\r"
+      },
+      "TS2322": {
+        "occurrences": 10,
+        "example": "ERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n    :\n 52 │ const arr = [1, \"a\"];\n    │                 ~~~\n    └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(52,21)\r"
+      },
+      "TS1140": {
+        "occurrences": 5,
+        "example": "ERROR TS1140: Type argument expected.\n     :\n 190 │ console.log((strArr.map(function autoFunc8280(x): string {\n     │                        ^\n     └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(190,28)\r"
+      },
+      "AS234": {
+        "occurrences": 1,
+        "example": "ERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2349": {
+        "occurrences": 1,
+        "example": "ERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      }
+    },
+    "transpilationSuccessRatio": 1,
+    "averageRuntimes": {
+      "original": null,
+      "annotated": null,
+      "transpiled": null
+    },
+    "averageStandardDeviation": {
+      "original": null,
+      "annotated": null,
+      "transpiled": null
+    },
+    "averageSizes": {
+      "original": null,
+      "annotated": null,
+      "transpiled": null,
+      "compilable": null
+    },
+    "averageLines": {
+      "original": null,
+      "annotated": null,
+      "transpiled": null,
+      "compilable": null
+    },
+    "totalRuns": {
+      "original": 0,
+      "annotated": 0,
+      "transpiled": 0,
+      "compilable": 0
+    },
+    "averageTranspilationTime": 20599.408499994875,
+    "runtimeRatio": null,
+    "sizeRatio": null,
+    "lineRatio": null,
+    "compilableLineRatio": null
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 17,
+    "total": 19,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "AS234": {
+        "occurrences": 1,
+        "example": "ERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2349": {
+        "occurrences": 1,
+        "example": "ERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2322": {
+        "occurrences": 3,
+        "example": "ERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r"
+      },
+      "TS2304": {
+        "occurrences": 13,
+        "example": "ERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 15 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r"
+      },
+      "TS1140": {
+        "occurrences": 1,
+        "example": "ERROR TS1140: Type argument expected.\n    :\n 16 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,28)\r"
+      },
+      "TS1110": {
+        "occurrences": 1,
+        "example": "ERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r"
+      }
+    },
+    "transpilationSuccessRatio": 0.8947368421052632,
+    "averageRuntimes": {
+      "original": 191.8192967644509,
+      "annotated": 197.72342647173826,
+      "transpiled": 209.46031411824856
+    },
+    "averageStandardDeviation": {
+      "original": 24.446985484044465,
+      "annotated": 25.7315020396485,
+      "transpiled": 25.512775240868798
+    },
+    "averageSizes": {
+      "original": 387.6470588235294,
+      "annotated": 1207.0588235294117,
+      "transpiled": 6087.35294117647,
+      "compilable": 355.88235294117646
+    },
+    "averageLines": {
+      "original": 17.058823529411764,
+      "annotated": 39,
+      "transpiled": 34.8235294117647,
+      "compilable": 11.235294117647058
+    },
+    "totalRuns": {
+      "original": 17,
+      "annotated": 17,
+      "transpiled": 17,
+      "compilable": 17
+    },
+    "averageTranspilationTime": 20839.639135290596,
+    "runtimeRatio": 1.0919668544894123,
+    "sizeRatio": 15.703338391502276,
+    "lineRatio": 0.8929110105580693,
+    "compilableLineRatio": 0.6586206896551724
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 13,
+    "total": 19,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "TS2304": {
+        "occurrences": 110,
+        "example": "ERROR TS2304: Cannot find name 'array'.\n   :\n 3 │ array = [1, 2, 3, 4, 5];\n   │ ~~~~~\n   └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(3,5)\r"
+      },
+      "TS2540": {
+        "occurrences": 1,
+        "example": "ERROR TS2540: Cannot assign to '~lib/builtins/rem' because it is a constant or a read-only property.\n    :\n 32 │ rem = array.splice(0, 1, 444, 909);\n    │ ~~~\n    └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(32,5)\r"
+      },
+      "TS2339": {
+        "occurrences": 1,
+        "example": "ERROR TS2339: Property 'toString' does not exist on type '~lib/builtins/rem'.\n    :\n 33 │ console.log((rem).toString());\n    │                   ~~~~~~~~\n    └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(33,23)\r"
+      },
+      "TS1140": {
+        "occurrences": 2,
+        "example": "ERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(num < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r"
+      },
+      "TS1110": {
+        "occurrences": 5,
+        "example": "ERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in map) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r"
+      },
+      "TS1005": {
+        "occurrences": 2,
+        "example": "ERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in map) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r"
+      },
+      "TS1155": {
+        "occurrences": 1,
+        "example": "ERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in map) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r"
+      },
+      "AS234": {
+        "occurrences": 1,
+        "example": "ERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2349": {
+        "occurrences": 1,
+        "example": "ERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2322": {
+        "occurrences": 2,
+        "example": "ERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r"
+      }
+    },
+    "transpilationSuccessRatio": 0.6842105263157895,
+    "averageRuntimes": {
+      "original": 160.27418423168936,
+      "annotated": 164.80681846038655,
+      "transpiled": 170.57063077034857
+    },
+    "averageStandardDeviation": {
+      "original": 11.534002409725426,
+      "annotated": 16.978012397403344,
+      "transpiled": 15.182576880828409
+    },
+    "averageSizes": {
+      "original": 431.53846153846155,
+      "annotated": 663.7692307692307,
+      "transpiled": 6422,
+      "compilable": 277.38461538461536
+    },
+    "averageLines": {
+      "original": 17.692307692307693,
+      "annotated": 24.53846153846154,
+      "transpiled": 41.38461538461539,
+      "compilable": 9.615384615384615
+    },
+    "totalRuns": {
+      "original": 13,
+      "annotated": 13,
+      "transpiled": 13,
+      "compilable": 13
+    },
+    "averageTranspilationTime": 21422.830723072475,
+    "runtimeRatio": 1.064242701268564,
+    "sizeRatio": 14.881639928698752,
+    "lineRatio": 1.6865203761755485,
+    "compilableLineRatio": 0.5434782608695652
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 19,
+    "total": 19,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "TS2304": {
+        "occurrences": 128,
+        "example": "ERROR TS2304: Cannot find name 'arraySetter'.\n   :\n 3 │ arraySetter([1, 2, 3, 4, 5]);\n   │ ~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(3,5)\r"
+      },
+      "TS1140": {
+        "occurrences": 3,
+        "example": "ERROR TS1140: Type argument expected.\n    :\n 20 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(20,19)\r"
+      },
+      "TS1110": {
+        "occurrences": 4,
+        "example": "ERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r"
+      },
+      "TS1005": {
+        "occurrences": 2,
+        "example": "ERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r"
+      },
+      "TS1155": {
+        "occurrences": 1,
+        "example": "ERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r"
+      },
+      "AS234": {
+        "occurrences": 1,
+        "example": "ERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2349": {
+        "occurrences": 1,
+        "example": "ERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2322": {
+        "occurrences": 3,
+        "example": "ERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r"
+      }
+    },
+    "transpilationSuccessRatio": 1,
+    "averageRuntimes": {
+      "original": 186.55016658023783,
+      "annotated": 186.13717657766844,
+      "transpiled": 199.07565657904274
+    },
+    "averageStandardDeviation": {
+      "original": 19.972567812390224,
+      "annotated": 25.271810293107944,
+      "transpiled": 24.23880806125387
+    },
+    "averageSizes": {
+      "original": 417.5263157894737,
+      "annotated": 1519.9473684210527,
+      "transpiled": 10302.368421052632,
+      "compilable": 861.1578947368421
+    },
+    "averageLines": {
+      "original": 18.210526315789473,
+      "annotated": 45.26315789473684,
+      "transpiled": 36.421052631578945,
+      "compilable": 23.157894736842106
+    },
+    "totalRuns": {
+      "original": 19,
+      "annotated": 19,
+      "transpiled": 19,
+      "compilable": 19
+    },
+    "averageTranspilationTime": 21401.093542114686,
+    "runtimeRatio": 1.0671427435762568,
+    "sizeRatio": 24.674776251102987,
+    "lineRatio": 0.8046511627906976,
+    "compilableLineRatio": 1.2716763005780347
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 18,
+    "total": 19,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "TS2304": {
+        "occurrences": 135,
+        "example": "ERROR TS2304: Cannot find name 'arraySetter'.\n   :\n 3 │ arraySetter([1, 2, 3, 4, 5]);\n   │ ~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(3,5)\r"
+      },
+      "AS200": {
+        "occurrences": 3,
+        "example": "ERROR AS200: Conversion from type 'f64' to 'i32' requires an explicit cast.\n    :\n 41 │ resSetter(arrayGetter()[(aGetter() + 2.5) * 0]);\n    │                         ~~~~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(41,29)\r"
+      },
+      "TS1140": {
+        "occurrences": 3,
+        "example": "ERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r"
+      },
+      "TS1110": {
+        "occurrences": 6,
+        "example": "ERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r"
+      },
+      "TS1005": {
+        "occurrences": 2,
+        "example": "ERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r"
+      },
+      "TS1155": {
+        "occurrences": 1,
+        "example": "ERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r"
+      },
+      "AS234": {
+        "occurrences": 1,
+        "example": "ERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2349": {
+        "occurrences": 1,
+        "example": "ERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r"
+      },
+      "TS2322": {
+        "occurrences": 3,
+        "example": "ERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r"
+      }
+    },
+    "transpilationSuccessRatio": 0.9473684210526315,
+    "averageRuntimes": {
+      "original": 164.4425988889403,
+      "annotated": 162.72248889009157,
+      "transpiled": 172.76487194415597
+    },
+    "averageStandardDeviation": {
+      "original": 11.924250449939542,
+      "annotated": 12.447204488217562,
+      "transpiled": 13.635057666553173
+    },
+    "averageSizes": {
+      "original": 388.94444444444446,
+      "annotated": 1317.7777777777778,
+      "transpiled": 9694.111111111111,
+      "compilable": 757.3333333333334
+    },
+    "averageLines": {
+      "original": 17.11111111111111,
+      "annotated": 41.94444444444444,
+      "transpiled": 32.55555555555556,
+      "compilable": 21.166666666666668
+    },
+    "totalRuns": {
+      "original": 18,
+      "annotated": 18,
+      "transpiled": 18,
+      "compilable": 18
+    },
+    "averageTranspilationTime": 20822.722116662397,
+    "runtimeRatio": 1.0506089852109204,
+    "sizeRatio": 24.924153692329668,
+    "lineRatio": 0.776158940397351,
+    "compilableLineRatio": 1.2370129870129871
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 16,
+    "total": 19,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "TS2304": {
+        "occurrences": 120,
+        "example": "ERROR TS2304: Cannot find name 'arraySetter'.\n   :\n 3 │ arraySetter([1, 2, 3, 4, 5]);\n   │ ~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(3,5)\r"
+      },
+      "TS2322": {
+        "occurrences": 83,
+        "example": "ERROR TS2322: Type '~lib/array/Array<f64>' is not assignable to type '~lib/string/String'.\n    :\n 28 │ console.log(arrayGetter());\n    │             ~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/array_output/array_compilable.ts(28,17)\r"
+      },
+      "TS1140": {
+        "occurrences": 3,
+        "example": "ERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r"
+      },
+      "TS1012": {
+        "occurrences": 1,
+        "example": "ERROR TS1012: Unexpected token.\n    :\n 14 │ let oi = void 0;\n    │               ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(14,19)\r"
+      },
+      "TS1005": {
+        "occurrences": 8,
+        "example": "ERROR TS1005: ';' expected.\n    :\n 21 │ for (i in arrayGetter()) {\n    │                       ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(21,27)\r"
+      },
+      "TS1155": {
+        "occurrences": 3,
+        "example": "ERROR TS1155: 'const' declarations must be initialized.\n    :\n 30 │ for (const ii in arrayGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(30,16)\r"
+      },
+      "AS100": {
+        "occurrences": 1,
+        "example": "ERROR AS100: Not implemented: Iterators\n   :\n 6 │ for (let c of testArray) {\n   │ ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(6,5)\r"
+      },
+      "TS1110": {
+        "occurrences": 4,
+        "example": "ERROR TS1110: Type expected.\n   :\n 8 │ type;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(8,9)\r"
+      },
+      "TS1109": {
+        "occurrences": 2,
+        "example": "ERROR TS1109: Expression expected.\n   :\n 7 │ aSetter(void 0);\n   │               ~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,19)\r"
+      }
+    },
+    "transpilationSuccessRatio": 0.8421052631578947,
+    "averageRuntimes": {
+      "original": 178.61764333327613,
+      "annotated": 181.89957866688567,
+      "transpiled": 192.4453380000591
+    },
+    "averageStandardDeviation": {
+      "original": 15.950232645916959,
+      "annotated": 19.473444774256603,
+      "transpiled": 20.544260252306582
+    },
+    "averageSizes": {
+      "original": 324.6666666666667,
+      "annotated": 818,
+      "transpiled": 4799.466666666666,
+      "compilable": 345.06666666666666
+    },
+    "averageLines": {
+      "original": 13.866666666666667,
+      "annotated": 29.2,
+      "transpiled": 22.4,
+      "compilable": 11.333333333333334
+    },
+    "totalRuns": {
+      "original": 15,
+      "annotated": 15,
+      "transpiled": 15,
+      "compilable": 15
+    },
+    "averageTranspilationTime": 23032.125487476587,
+    "runtimeRatio": 1.0774150549113581,
+    "sizeRatio": 14.782751540041065,
+    "lineRatio": 0.7671232876712328,
+    "compilableLineRatio": 0.8173076923076923
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "reports": {
+      "annotatorCount": 0,
+      "integrationCount": 0,
+      "runnerGeneralCount": 0,
+      "runnerOriginalCount": 0,
+      "runnerAnnotatedCount": 0,
+      "runnerTranspiledCount": 0
+    },
+    "success": 12,
+    "total": 20,
+    "version": "Tese",
+    "ascDiagnostics": {
+      "TS1012": {
+        "occurrences": 2,
+        "example": "ERROR TS1012: Unexpected token.\n    :\n 28 │ let oi = void 0;\n    │               ^\n    └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(28,19)\r"
+      },
+      "AS100": {
+        "occurrences": 2,
+        "example": "ERROR AS100: Not implemented: Iterators\n    :\n 20 │ for (let c of testArray) {\n    │ ~~~~~~~~~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(20,5)\r"
+      },
+      "TS2322": {
+        "occurrences": 11,
+        "example": "ERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n    :\n 32 │ const arr = [1, \"a\"];\n    │                 ~~~\n    └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(32,21)\r"
+      },
+      "TS2304": {
+        "occurrences": 31,
+        "example": "ERROR TS2304: Cannot find name 'num2'.\n    :\n 48 │ const num3 = a + num2;\n    │                  ~~~~\n    └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(48,22)\r"
+      },
+      "TS1140": {
+        "occurrences": 2,
+        "example": "ERROR TS1140: Type argument expected.\n     :\n 170 │ console.log(strArr.map((x): string => \"hello\" + x)); // [\"helloa\", \"hellob\", \"helloc\"]\n     │                       ^\n     └─ in ../examples/custom/my-examples/combined_output/combined_compilable.ts(170,27)\r"
+      }
+    },
+    "transpilationSuccessRatio": 0.6,
+    "averageRuntimes": {
+      "original": 154.2571245836715,
+      "annotated": 154.77565875115494,
+      "transpiled": 162.79760041621827
+    },
+    "averageStandardDeviation": {
+      "original": 8.882754035628793,
+      "annotated": 12.96893332947556,
+      "transpiled": 12.02544765453456
+    },
+    "averageSizes": {
+      "original": 1045,
+      "annotated": 1279,
+      "transpiled": 7569.166666666667,
+      "compilable": 387.8333333333333
+    },
+    "averageLines": {
+      "original": 43,
+      "annotated": 47.083333333333336,
+      "transpiled": 89,
+      "compilable": 12.916666666666666
+    },
+    "totalRuns": {
+      "original": 12,
+      "annotated": 12,
+      "transpiled": 12,
+      "compilable": 12
+    },
+    "averageTranspilationTime": 12371.124116669098,
+    "runtimeRatio": 1.0553651953230483,
+    "sizeRatio": 7.243221690590112,
+    "lineRatio": 1.8902654867256636,
+    "compilableLineRatio": 0.3003875968992248
+  },
+  "overallTranspilationSuccessRatio": 1
+}

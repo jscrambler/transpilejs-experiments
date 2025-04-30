@@ -1,0 +1,337 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 10289.05269998312,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglobGetter -> Dependencies: \nglobSetter -> Dependencies: \nglobUnary -> Dependencies: \nfindirect -> Dependencies: \nmain -> Dependencies: toString, findirect\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 7 │ globSetter(1);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n   :\n 8 │ console.log((globGetter()).toString());\n   │              ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(8,18)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 4 │ globSetter(20);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 10 │ console.log((globGetter()).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n    :\n 11 │ globSetter(globGetter() * 2);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 12 │ console.log((globGetter()).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,18)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13235.562900006771,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\globals2_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_compilable.ts",
+    "transpilationTime": 23525.205799996853,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 147,
+        "lines": 9,
+        "output": "1\n20\n40\n",
+        "averageRuntime": 172.34795499145986,
+        "standardDeviation": 16.2004326148319
+      },
+      "annotated": {
+        "size": 761,
+        "lines": 30,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 164.49422500133514,
+        "standardDeviation": 10.988468978606493
+      },
+      "transpiled": {
+        "size": 10132,
+        "lines": 19,
+        "output": "1.0\nEntering function findirect\n20.0\n40.0\n",
+        "averageRuntime": 186.24376000761987,
+        "standardDeviation": 13.386155847892141
+      },
+      "compilable": {
+        "size": 524,
+        "lines": 16
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7180.488199979067,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglobGetter -> Dependencies: \nglobSetter -> Dependencies: \nglobUnary -> Dependencies: \nfindirect -> Dependencies: \n\nTrying to compile functions: findirect\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 4 │ globSetter(20);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: findirect\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11234.686199992895,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\globals2_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_compilable.ts",
+    "transpilationTime": 18415.67319998145,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 147,
+        "lines": 9,
+        "output": "1\n20\n40\n",
+        "averageRuntime": 184.5219549998641,
+        "standardDeviation": 22.22191034036837
+      },
+      "annotated": {
+        "size": 703,
+        "lines": 27,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 200.05535500347614,
+        "standardDeviation": 27.704172724833292
+      },
+      "transpiled": {
+        "size": 3169,
+        "lines": 25,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 181.38460000306367,
+        "standardDeviation": 27.33694842342577
+      },
+      "compilable": {
+        "size": 207,
+        "lines": 6
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8637.367100000381,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts\" --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nfindirect -> Dependencies: \nmain -> Dependencies: toString, findirect\n\nTrying to compile functions: findirect,main\nImportable Functions: \nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'glob'.\n   :\n 7 │ glob = 1;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n   :\n 8 │ console.log((glob).toString());\n   │              ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(8,18)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n   :\n 4 │ glob = 20;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n    :\n 10 │ console.log((glob).toString());\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n    :\n 11 │ glob *= 2;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n    :\n 12 │ console.log((glob).toString());\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,18)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts\" --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nfindirect -> Dependencies: \nmain -> Dependencies: toString, findirect\n\nTrying to compile functions: findirect,main\nImportable Functions: \nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'glob'.\n   :\n 7 │ glob = 1;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n   :\n 8 │ console.log((glob).toString());\n   │              ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(8,18)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n   :\n 4 │ glob = 20;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n    :\n 10 │ console.log((glob).toString());\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n    :\n 11 │ glob *= 2;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'glob'.\n    :\n 12 │ console.log((glob).toString());\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,18)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6183.577900052071,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglobGetter -> Dependencies: \nglobSetter -> Dependencies: \nglobUnary -> Dependencies: \nfindirect -> Dependencies: \nmain -> Dependencies: toString, findirect\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 7 │ globSetter(1);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n   :\n 8 │ console.log((globGetter()).toString());\n   │              ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(8,18)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 4 │ globSetter(20);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 10 │ console.log((globGetter()).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n    :\n 11 │ globSetter(globGetter() * 2);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 12 │ console.log((globGetter()).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,18)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 18185.73609995842,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\globals2_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_compilable.ts",
+    "transpilationTime": 24369.911100029945,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 147,
+        "lines": 9,
+        "output": "1\n20\n40\n",
+        "averageRuntime": 218.99098999202252,
+        "standardDeviation": 42.302950206445885
+      },
+      "annotated": {
+        "size": 761,
+        "lines": 30,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 169.2182600080967,
+        "standardDeviation": 28.30489558738193
+      },
+      "transpiled": {
+        "size": 10132,
+        "lines": 19,
+        "output": "1.0\nEntering function findirect\n20.0\n40.0\n",
+        "averageRuntime": 190.8125500023365,
+        "standardDeviation": 23.93379489653913
+      },
+      "compilable": {
+        "size": 524,
+        "lines": 16
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8666.691399991512,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglobGetter -> Dependencies: \nglobSetter -> Dependencies: \nglobUnary -> Dependencies: \nfindirect -> Dependencies: \nmain -> Dependencies: toString, findirect\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 7 │ globSetter(1);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n   :\n 8 │ console.log((globGetter()).toString());\n   │              ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(8,18)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 4 │ globSetter(20);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 10 │ console.log((globGetter()).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n    :\n 11 │ globSetter(globGetter() * 2);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 12 │ console.log((globGetter()).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,18)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13657.401700019836,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\globals2_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_compilable.ts",
+    "transpilationTime": 22324.60830003023,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 147,
+        "lines": 9,
+        "output": "1\n20\n40\n",
+        "averageRuntime": 158.92997999787332,
+        "standardDeviation": 9.099511467972636
+      },
+      "annotated": {
+        "size": 761,
+        "lines": 30,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 157.24245000183583,
+        "standardDeviation": 7.04880215863353
+      },
+      "transpiled": {
+        "size": 10132,
+        "lines": 19,
+        "output": "1.0\nEntering function findirect\n20.0\n40.0\n",
+        "averageRuntime": 176.02098000347615,
+        "standardDeviation": 20.469632799127343
+      },
+      "compilable": {
+        "size": 524,
+        "lines": 16
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7663.871100008488,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglobGetter -> Dependencies: \nglobSetter -> Dependencies: \nglobUnary -> Dependencies: \nfindirect -> Dependencies: \nmain -> Dependencies: findirect\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 7 │ globSetter(1);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n   :\n 8 │ console.log(globGetter());\n   │             ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(8,17)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 4 │ globSetter(20);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 10 │ console.log(globGetter());\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(10,17)\r\n\r\nERROR TS2304: Cannot find name 'globSetter'.\n    :\n 11 │ globSetter(globGetter() * 2);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'globGetter'.\n    :\n 12 │ console.log(globGetter());\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,17)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: findirect,main\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 12 │ console.log(globGetter());\n    │             ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(12,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 14 │ console.log(globGetter());\n    │             ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(14,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 16 │ console.log(globGetter());\n    │             ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(16,17)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: findirect\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'globSetter'.\n   :\n 4 │ globSetter(20);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: findirect\nImportable Functions: globGetter,globSetter,globUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13857.65649998188,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\globals2_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_output\\globals2_compilable.ts",
+    "transpilationTime": 21522.245999991894,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 147,
+        "lines": 9,
+        "output": "1\n20\n40\n",
+        "averageRuntime": 180.352655005455,
+        "standardDeviation": 16.354673795528264
+      },
+      "annotated": {
+        "size": 722,
+        "lines": 30,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 179.79979000091552,
+        "standardDeviation": 16.084481028779685
+      },
+      "transpiled": {
+        "size": 3182,
+        "lines": 28,
+        "output": "1\nEntering function findirect\n20\n40\n",
+        "averageRuntime": 201.97193999290465,
+        "standardDeviation": 19.899946113657894
+      },
+      "compilable": {
+        "size": 207,
+        "lines": 6
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4159.929899990559,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nfindirect -> Dependencies: \n\nTrying to compile functions: findirect\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'glob'.\n   :\n 4 │ glob = 20;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\globals2_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nfindirect -> Dependencies: \n\nTrying to compile functions: findirect\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'glob'.\n   :\n 4 │ glob = 20;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/globals2_output/globals2_compilable.ts(4,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  }
+}

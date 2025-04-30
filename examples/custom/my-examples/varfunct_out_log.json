@@ -1,0 +1,279 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9847.391000032425,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\narrayStuff -> Dependencies: map, autoFunc287, toString\nautoFunc287 -> Dependencies: \nmain -> Dependencies: autoFunc33, autoFunc67, toString, arrayStuff\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 10 │ arrSetter([1, 2, 3]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n    :\n 11 │ varfSetter(function autoFunc33(x: number): number {\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(11,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 14 │ doubleSetter(function autoFunc67(x: number): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(14,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 17 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(17,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 18 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(18,18)\r\n\r\nERROR TS1140: Type argument expected.\n   :\n 5 │ console.log((strArr.map(function autoFunc287(x): string {\n   │                        ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(5,28)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n    :\n 15 │ console.log((strArr.map(function autoFunc287(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,28)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: autoFunc287,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 7 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc287(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 6 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n   :\n 7 │ varfSetter(function autoFunc33(x: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 10 │ doubleSetter(function autoFunc67(x: number): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 13 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(13,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 14 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(14,18)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 15 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nFAILURE 7 compile error(s)\r\n\nTrying to compile functions: autoFunc287,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 2 compile error(s)\nERROR TS1110: Type expected.\n    :\n 12 │ export function autoFunc287(x): string {\n    │                              ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(12,30)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 25 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(25,5)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 3 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(3,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n   :\n 4 │ varfSetter(function autoFunc33(x: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n   :\n 7 │ doubleSetter(function autoFunc67(x: number): number {\n   │ ~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 10 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 11 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(11,18)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 12 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(12,5)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 18951.686299979687,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\varfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_output\\varfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_output\\varfunct_compilable.ts",
+    "transpilationTime": 28799.727500021458,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 323,
+        "lines": 13,
+        "output": "10\n144\n[ \"helloa\", \"hellob\", \"helloc\" ]\n",
+        "averageRuntime": 165.1299449890852,
+        "standardDeviation": 14.269871898058815
+      },
+      "annotated": {
+        "size": 1953,
+        "lines": 39,
+        "output": "10\n144\nEntering function arrayStuff\nhelloa,hellob,helloc\n",
+        "averageRuntime": 171.37013499736787,
+        "standardDeviation": 17.58313330480249
+      },
+      "transpiled": {
+        "size": 21737,
+        "lines": 51,
+        "output": "10.0\n144.0\nEntering function arrayStuff\nhelloa,hellob,helloc\n",
+        "averageRuntime": 186.52304499149324,
+        "standardDeviation": 17.073662719768546
+      },
+      "compilable": {
+        "size": 983,
+        "lines": 24
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 10928.880300015211,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --noGeneratedMain --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \narrayStuff -> Dependencies: map, autoFunc370, toString\nautoFunc370 -> Dependencies: \n\nTrying to compile functions: autoFunc33,autoFunc67,arrayStuff\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n    :\n 16 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,28)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: autoFunc370\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --noGeneratedMain --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \narrayStuff -> Dependencies: map, autoFunc370, toString\nautoFunc370 -> Dependencies: \n\nTrying to compile functions: autoFunc33,autoFunc67,arrayStuff\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n    :\n 16 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,28)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: autoFunc370\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6735.5035000145435,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrayStuff -> Dependencies: map, autoFunc370, toString\nautoFunc370 -> Dependencies: \nmain -> Dependencies: varf, autoFunc33, double, autoFunc67, toString, arrayStuff\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \n\nTrying to compile functions: arrayStuff,main\nImportable Functions: \nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arr'.\n    :\n 15 │ arr = [1, 2, 3];\n    │ ~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nERROR TS2304: Cannot find name 'varf'.\n    :\n 16 │ varf = function autoFunc33(x: number): number {\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'double'.\n    :\n 19 │ double = function autoFunc67(x: number): number {\n    │ ~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(19,5)\r\n\r\nERROR TS2304: Cannot find name 'double'.\n    :\n 22 │ console.log((double(5)).toString());\n    │              ~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(22,18)\r\n\r\nERROR TS2304: Cannot find name 'varf'.\n    :\n 23 │ console.log((varf(12)).toString());\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(23,18)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 10 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,28)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: autoFunc370,autoFunc33,autoFunc67\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrayStuff -> Dependencies: map, autoFunc370, toString\nautoFunc370 -> Dependencies: \nmain -> Dependencies: varf, autoFunc33, double, autoFunc67, toString, arrayStuff\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \n\nTrying to compile functions: arrayStuff,main\nImportable Functions: \nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arr'.\n    :\n 15 │ arr = [1, 2, 3];\n    │ ~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nERROR TS2304: Cannot find name 'varf'.\n    :\n 16 │ varf = function autoFunc33(x: number): number {\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'double'.\n    :\n 19 │ double = function autoFunc67(x: number): number {\n    │ ~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(19,5)\r\n\r\nERROR TS2304: Cannot find name 'double'.\n    :\n 22 │ console.log((double(5)).toString());\n    │              ~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(22,18)\r\n\r\nERROR TS2304: Cannot find name 'varf'.\n    :\n 23 │ console.log((varf(12)).toString());\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(23,18)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 10 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,28)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: autoFunc370,autoFunc33,autoFunc67\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7664.176599979401,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\narrayStuff -> Dependencies: map, toString\nmain -> Dependencies: toString, arrayStuff\n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 13 │ arrSetter([1, 2, 3]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(13,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n    :\n 14 │ varfSetter((x): number => x ** 2);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(14,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 15 │ doubleSetter(function (x): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 18 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(18,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 19 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(19,18)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 10 │ console.log((strArr.map((x): string => \"hello\" + x)).toString()); // [\"helloa\", \"hellob\", \"helloc\"]\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,28)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n    :\n 20 │ console.log((strArr.map((x): string => \"hello\" + x)).toString()); // [\"helloa\", \"hellob\", \"helloc\"]\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(20,28)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 3 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(3,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n   :\n 4 │ varfSetter((x): number => x ** 2);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n   :\n 5 │ doubleSetter(function (x): number {\n   │ ~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(5,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n   :\n 8 │ console.log((doubleGetter()(5)).toString());\n   │              ~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(8,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n   :\n 9 │ console.log((varfGetter()(12)).toString());\n   │              ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(9,18)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 10 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,5)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 18767.93090003729,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\varfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_output\\varfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_output\\varfunct_compilable.ts",
+    "transpilationTime": 26433.53219997883,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 18,
+        "output": "10\n144\n[ \"helloa\", \"hellob\", \"helloc\" ]\n",
+        "averageRuntime": 197.80313501358032,
+        "standardDeviation": 25.130791133895055
+      },
+      "annotated": {
+        "size": 1929,
+        "lines": 40,
+        "output": "10\n144\nEntering function arrayStuff\nhelloa,hellob,helloc\n",
+        "averageRuntime": 185.365729996562,
+        "standardDeviation": 28.145546211173706
+      },
+      "transpiled": {
+        "size": 21797,
+        "lines": 54,
+        "output": "10.0\n144.0\nEntering function arrayStuff\nhelloa,hellob,helloc\n",
+        "averageRuntime": 165.14406501054765,
+        "standardDeviation": 10.988668661404454
+      },
+      "compilable": {
+        "size": 917,
+        "lines": 22
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6221.372799992561,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\narrayStuff -> Dependencies: map, autoFunc370, toString\nautoFunc370 -> Dependencies: \nmain -> Dependencies: autoFunc33, autoFunc67, toString, arrayStuff\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 15 │ arrSetter([1, 2, 3]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n    :\n 16 │ varfSetter(function autoFunc33(x: number): number {\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 19 │ doubleSetter(function autoFunc67(x: number): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(19,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 22 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(22,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 23 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(23,18)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 10 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,28)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n    :\n 20 │ console.log((strArr.map(function autoFunc370(x): string {\n    │                        ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(20,28)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: autoFunc370,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 7 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 6 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n   :\n 7 │ varfSetter(function autoFunc33(x: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 10 │ doubleSetter(function autoFunc67(x: number): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 13 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(13,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 14 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(14,18)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 15 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nFAILURE 7 compile error(s)\r\n\nTrying to compile functions: autoFunc370,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 2 compile error(s)\nERROR TS1110: Type expected.\n    :\n 12 │ export function autoFunc370(x): string {\n    │                              ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(12,30)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 25 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(25,5)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 3 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(3,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n   :\n 4 │ varfSetter(function autoFunc33(x: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n   :\n 7 │ doubleSetter(function autoFunc67(x: number): number {\n   │ ~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 10 │ console.log((doubleGetter()(5)).toString());\n    │              ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,18)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 11 │ console.log((varfGetter()(12)).toString());\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(11,18)\r\n\r\nERROR TS2304: Cannot find name 'arrayStuff'.\n    :\n 12 │ arrayStuff();\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(12,5)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 25516.212399959564,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\varfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_output\\varfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_output\\varfunct_compilable.ts",
+    "transpilationTime": 31738.233599960804,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 18,
+        "output": "10\n144\n[ \"helloa\", \"hellob\", \"helloc\" ]\n",
+        "averageRuntime": 159.40914000570774,
+        "standardDeviation": 7.729686599431706
+      },
+      "annotated": {
+        "size": 2036,
+        "lines": 44,
+        "output": "10\n144\nEntering function arrayStuff\nhelloa,hellob,helloc\n",
+        "averageRuntime": 153.60910000801087,
+        "standardDeviation": 10.255792836145016
+      },
+      "transpiled": {
+        "size": 21820,
+        "lines": 56,
+        "output": "10.0\n144.0\nEntering function arrayStuff\nhelloa,hellob,helloc\n",
+        "averageRuntime": 159.87816999554633,
+        "standardDeviation": 10.329601559311904
+      },
+      "compilable": {
+        "size": 983,
+        "lines": 24
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7373.234799981117,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\narrayStuff -> Dependencies: map, autoFunc370\nautoFunc370 -> Dependencies: \nmain -> Dependencies: autoFunc33, autoFunc67, arrayStuff\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 15 │ arrSetter([1, 2, 3]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n    :\n 16 │ varfSetter(function autoFunc33(x: number): number {\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 19 │ doubleSetter(function autoFunc67(x: number): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(19,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 22 │ console.log(doubleGetter()(5));\n    │             ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(22,17)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 23 │ console.log(varfGetter()(12));\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(23,17)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 10 │ console.log(strArr.map(function autoFunc370(x): string {\n    │                       ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,27)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 32 │ console.log(doubleGetter()(5));\n    │             ~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(32,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 33 │ console.log(varfGetter()(12));\n    │             ~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(33,17)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 20 │ console.log(strArr.map(function autoFunc370(x): string {\n    │                       ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(20,27)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: autoFunc370,autoFunc33,autoFunc67\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff,main\n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nvarfGetter -> Dependencies: varf\nvarfSetter -> Dependencies: varf, value\ndoubleGetter -> Dependencies: double\ndoubleSetter -> Dependencies: double, value\narrayStuff -> Dependencies: map, autoFunc370\nautoFunc370 -> Dependencies: \nmain -> Dependencies: autoFunc33, autoFunc67, arrayStuff\nautoFunc33 -> Dependencies: \nautoFunc67 -> Dependencies: \n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 15 │ arrSetter([1, 2, 3]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(15,5)\r\n\r\nERROR TS2304: Cannot find name 'varfSetter'.\n    :\n 16 │ varfSetter(function autoFunc33(x: number): number {\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleSetter'.\n    :\n 19 │ doubleSetter(function autoFunc67(x: number): number {\n    │ ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(19,5)\r\n\r\nERROR TS2304: Cannot find name 'doubleGetter'.\n    :\n 22 │ console.log(doubleGetter()(5));\n    │             ~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(22,17)\r\n\r\nERROR TS2304: Cannot find name 'varfGetter'.\n    :\n 23 │ console.log(varfGetter()(12));\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(23,17)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 10 │ console.log(strArr.map(function autoFunc370(x): string {\n    │                       ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(10,27)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: arrayStuff,main\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 32 │ console.log(doubleGetter()(5));\n    │             ~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(32,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 33 │ console.log(varfGetter()(12));\n    │             ~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(33,17)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 20 │ console.log(strArr.map(function autoFunc370(x): string {\n    │                       ^\n    └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(20,27)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: autoFunc370,autoFunc33,autoFunc67\nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS1110: Type expected.\n   :\n 2 │ export function autoFunc370(x): string {\n   │                              ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(2,30)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,varfGetter,varfSetter,doubleGetter,doubleSetter,arrayStuff,main\n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4181.2294999957085,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrayStuff -> Dependencies: map\n\nTrying to compile functions: arrayStuff\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n   :\n 5 │ console.log(strArr.map((x): string => \"hello\" + x)); // [\"helloa\", \"hellob\", \"helloc\"]\n   │                       ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(5,27)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\varfunct_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrayStuff -> Dependencies: map\n\nTrying to compile functions: arrayStuff\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS1140: Type argument expected.\n   :\n 5 │ console.log(strArr.map((x): string => \"hello\" + x)); // [\"helloa\", \"hellob\", \"helloc\"]\n   │                       ^\n   └─ in ../examples/custom/my-examples/varfunct_output/varfunct_compilable.ts(5,27)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  }
+}

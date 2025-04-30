@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9416.8424000144,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nscoGetter -> Dependencies: \nscoSetter -> Dependencies: \nscoUnary -> Dependencies: \notherScope -> Dependencies: \nmain -> Dependencies: otherScope\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'scoSetter'.\n   :\n 8 │ scoSetter(10);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/scopes_output/scopes_compilable.ts(8,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12234.786100029945,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 21652.26350003481,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 165.86776500046253,
+        "standardDeviation": 13.08692834751114
+      },
+      "annotated": {
+        "size": 622,
+        "lines": 27,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 177.81382499933244,
+        "standardDeviation": 13.672696244408744
+      },
+      "transpiled": {
+        "size": 2991,
+        "lines": 19,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 182.1187950015068,
+        "standardDeviation": 12.641264130993221
+      },
+      "compilable": {
+        "size": 309,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7063.704899996519,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nscoGetter -> Dependencies: \nscoSetter -> Dependencies: \nscoUnary -> Dependencies: \notherScope -> Dependencies: \n\nTrying to compile functions: otherScope\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 9122.119100004435,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 16186.469599992037,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 175.42562500238418,
+        "standardDeviation": 18.957529154882703
+      },
+      "annotated": {
+        "size": 582,
+        "lines": 25,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 162.847429998219,
+        "standardDeviation": 15.812109151193354
+      },
+      "transpiled": {
+        "size": 2887,
+        "lines": 21,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 198.45978999882936,
+        "standardDeviation": 16.881586647336007
+      },
+      "compilable": {
+        "size": 137,
+        "lines": 5
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8379.925300002098,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\notherScope -> Dependencies: \nmain -> Dependencies: otherScope\n\nTrying to compile functions: otherScope,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'sco'.\n   :\n 8 │ sco = 10;\n   │ ~~~\n   └─ in ../examples/custom/my-examples/scopes_output/scopes_compilable.ts(8,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: otherScope\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13549.02429997921,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 21929.608699977398,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 149.80598500072955,
+        "standardDeviation": 6.68251479420202
+      },
+      "annotated": {
+        "size": 225,
+        "lines": 11,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 151.22221499830485,
+        "standardDeviation": 10.02171744625654
+      },
+      "transpiled": {
+        "size": 2877,
+        "lines": 24,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 164.70713000148535,
+        "standardDeviation": 18.26462052496298
+      },
+      "compilable": {
+        "size": 137,
+        "lines": 5
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7966.170000016689,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nscoGetter -> Dependencies: \nscoSetter -> Dependencies: \nscoUnary -> Dependencies: \notherScope -> Dependencies: \nmain -> Dependencies: otherScope\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'scoSetter'.\n   :\n 8 │ scoSetter(10);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/scopes_output/scopes_compilable.ts(8,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12304.223299980164,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 20270.80560004711,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 163.80300999879836,
+        "standardDeviation": 6.4122930308338475
+      },
+      "annotated": {
+        "size": 622,
+        "lines": 27,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 196.84363499879836,
+        "standardDeviation": 33.62659867071149
+      },
+      "transpiled": {
+        "size": 2991,
+        "lines": 19,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 202.3679900020361,
+        "standardDeviation": 26.49765761610802
+      },
+      "compilable": {
+        "size": 309,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6451.148499965668,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nscoGetter -> Dependencies: \nscoSetter -> Dependencies: \nscoUnary -> Dependencies: \notherScope -> Dependencies: \nmain -> Dependencies: otherScope\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'scoSetter'.\n   :\n 8 │ scoSetter(10);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/scopes_output/scopes_compilable.ts(8,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10087.286300003529,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 16538.89090001583,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 165.76453999578953,
+        "standardDeviation": 10.301858830277396
+      },
+      "annotated": {
+        "size": 622,
+        "lines": 27,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 152.20448499917984,
+        "standardDeviation": 10.407268649058235
+      },
+      "transpiled": {
+        "size": 2991,
+        "lines": 19,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 173.29424499869347,
+        "standardDeviation": 11.601589412369
+      },
+      "compilable": {
+        "size": 309,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6954.44470000267,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nscoGetter -> Dependencies: \nscoSetter -> Dependencies: \nscoUnary -> Dependencies: \notherScope -> Dependencies: \nmain -> Dependencies: otherScope\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'scoSetter'.\n   :\n 8 │ scoSetter(10);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/scopes_output/scopes_compilable.ts(8,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: otherScope,main\nImportable Functions: scoGetter,scoSetter,scoUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11161.365299999714,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 18116.502999961376,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 174.3925499945879,
+        "standardDeviation": 12.272629865969314
+      },
+      "annotated": {
+        "size": 622,
+        "lines": 27,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 173.05436999499798,
+        "standardDeviation": 13.960584988560704
+      },
+      "transpiled": {
+        "size": 2991,
+        "lines": 19,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 182.9245650023222,
+        "standardDeviation": 19.646394561419825
+      },
+      "compilable": {
+        "size": 309,
+        "lines": 11
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4161.543000012636,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_annotated.ts",
+    "selectorOutput": "Function Dependencies:\notherScope -> Dependencies: \n\nTrying to compile functions: otherScope\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 6942.541500002146,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\scopes_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\scopes_output\\scopes_compilable.ts",
+    "transpilationTime": 11104.679200023413,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 122,
+        "lines": 7,
+        "output": "aaaa\n",
+        "averageRuntime": 142.3141850039363,
+        "standardDeviation": 5.4348659682945595
+      },
+      "annotated": {
+        "size": 183,
+        "lines": 8,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 144.84147999882697,
+        "standardDeviation": 7.958288020121839
+      },
+      "transpiled": {
+        "size": 2841,
+        "lines": 21,
+        "output": "Entering function otherScope\naaaa\n",
+        "averageRuntime": 157.5729000002146,
+        "standardDeviation": 9.784990472550582
+      },
+      "compilable": {
+        "size": 137,
+        "lines": 5
+      }
+    }
+  }
+}

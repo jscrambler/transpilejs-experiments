@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 10881.934300005436,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nfuncGetter -> Dependencies: func\nfuncSetter -> Dependencies: func, value\na -> Dependencies: \nmain -> Dependencies: autoFunc148, toString, a\nautoFunc148 -> Dependencies: \n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'numSetter'.\n   :\n 4 │ numSetter(42);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'strSetter'.\n   :\n 5 │ strSetter(\"Hello, World!\");\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(5,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 6 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'funcSetter'.\n   :\n 7 │ funcSetter(function autoFunc148(n: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 11 │ console.log((numGetter()).toString()); // Number\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(11,18)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 12 │ console.log(strGetter()); // String\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(12,17)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 13 │ console.log((arrGetter()).toString()); // Array\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(13,18)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 14 │ console.log((funcGetter()(10)).toString()); // Function call\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(14,18)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 16 │ console.log((8 * numGetter() + 6).toString()); // Expression\n    │                  ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(16,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 17 │ console.log((a(8) * a(numGetter()) + 6 / 10).toString()); // Complex Expression\n    │                       ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(17,27)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 18 │ console.log((arrGetter()[1]).toString()); // Array element\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(18,18)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 19 │ console.log(`The number is ${numGetter()}`); // Template string\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(19,34)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 21 │ console.assert(numGetter() === 42, \"Number is not 42\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(21,20)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 23 │ console.assert(arrGetter().length === 3, \"Array length is not 3\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(23,20)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 24 │ console.assert(typeof funcGetter() === \"function\", \"Func is not a function\");\n    │                       ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(24,27)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 26 │ console.warn((numGetter()).toString());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(26,19)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 27 │ console.error(strGetter());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(27,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 29 │ console.debug((arrGetter()).toString());\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(29,20)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 18219.013899981976,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 29101.691899955273,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 183.63347500264643,
+        "standardDeviation": 12.202056969632618
+      },
+      "annotated": {
+        "size": 3171,
+        "lines": 66,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 194.96625499725343,
+        "standardDeviation": 16.806438942781984
+      },
+      "transpiled": {
+        "size": 21144,
+        "lines": 61,
+        "output": "42.0\nHello, World!\n1.0,2.0,3.0\n20.0\nEntering function a\n10.0\n342.0\nEntering function a\nEntering function a\n1344.6\n2.0\nThe number is 42.0\nimportant information\n1.0,2.0,3.0\n",
+        "averageRuntime": 188.48008999526502,
+        "standardDeviation": 12.143127280967411
+      },
+      "compilable": {
+        "size": 2238,
+        "lines": 45
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7683.504299998283,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nfuncGetter -> Dependencies: func\nfuncSetter -> Dependencies: func, value\na -> Dependencies: \nautoFunc148 -> Dependencies: \n\nTrying to compile functions: a,autoFunc148\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10722.871000021696,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 18407.052400022745,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 228.12347499728202,
+        "standardDeviation": 16.01589825070026
+      },
+      "annotated": {
+        "size": 3033,
+        "lines": 63,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 271.6637249991298,
+        "standardDeviation": 37.00712730899129
+      },
+      "transpiled": {
+        "size": 5791,
+        "lines": 85,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 203.68926500231026,
+        "standardDeviation": 22.156926427574454
+      },
+      "compilable": {
+        "size": 161,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8569.308200001717,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\na -> Dependencies: \nmain -> Dependencies: func, autoFunc148, toString, a\nautoFunc148 -> Dependencies: \n\nTrying to compile functions: a,main\nImportable Functions: \nAS Compilation failed: 18 compile error(s)\nERROR TS2304: Cannot find name 'num'.\n   :\n 4 │ num = 42;\n   │ ~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'str'.\n   :\n 5 │ str = \"Hello, World!\";\n   │ ~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(5,5)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n   :\n 6 │ arr = [1, 2, 3];\n   │ ~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'func'.\n   :\n 7 │ func = function autoFunc148(n: number): number {\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 11 │ console.log((num).toString()); // Number\n    │              ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(11,18)\r\n\r\nERROR TS2304: Cannot find name 'str'.\n    :\n 12 │ console.log(str); // String\n    │             ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(12,17)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n    :\n 13 │ console.log((arr).toString()); // Array\n    │              ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(13,18)\r\n\r\nERROR TS2304: Cannot find name 'func'.\n    :\n 14 │ console.log((func(10)).toString()); // Function call\n    │              ~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(14,18)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 16 │ console.log((8 * num + 6).toString()); // Expression\n    │                  ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(16,22)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 17 │ console.log((a(8) * a(num) + 6 / 10).toString()); // Complex Expression\n    │                       ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(17,27)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n    :\n 18 │ console.log((arr[1]).toString()); // Array element\n    │              ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(18,18)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 19 │ console.log(`The number is ${num}`); // Template string\n    │                              ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(19,34)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 21 │ console.assert(num === 42, \"Number is not 42\");\n    │                ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(21,20)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(num < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n    :\n 23 │ console.assert(arr.length === 3, \"Array length is not 3\");\n    │                ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(23,20)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 26 │ console.warn((num).toString());\n    │               ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(26,19)\r\n\r\nERROR TS2304: Cannot find name 'str'.\n    :\n 27 │ console.error(str);\n    │               ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(27,19)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n    :\n 29 │ console.debug((arr).toString());\n    │                ~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(29,20)\r\n\r\nFAILURE 18 compile error(s)\r\n\nTrying to compile functions: autoFunc148,a\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12408.214199990034,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 20978.051799982786,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 169.16632499992846,
+        "standardDeviation": 18.64124668568247
+      },
+      "annotated": {
+        "size": 1437,
+        "lines": 34,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 171.8183849990368,
+        "standardDeviation": 13.12058613434127
+      },
+      "transpiled": {
+        "size": 5705,
+        "lines": 91,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 175.0423350021243,
+        "standardDeviation": 12.136330804701103
+      },
+      "compilable": {
+        "size": 161,
+        "lines": 4
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 5542.220500051975,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nfuncGetter -> Dependencies: func\nfuncSetter -> Dependencies: func, value\na -> Dependencies: \nmain -> Dependencies: toString, a\n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'numSetter'.\n   :\n 4 │ numSetter(42);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'strSetter'.\n   :\n 5 │ strSetter(\"Hello, World!\");\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(5,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 6 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'funcSetter'.\n   :\n 7 │ funcSetter((n): number => n * 2);\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n   :\n 9 │ console.log((numGetter()).toString()); // Number\n   │              ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(9,18)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 10 │ console.log(strGetter()); // String\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(10,17)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 11 │ console.log((arrGetter()).toString()); // Array\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(11,18)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 12 │ console.log((funcGetter()(10)).toString()); // Function call\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(12,18)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 14 │ console.log((8 * numGetter() + 6).toString()); // Expression\n    │                  ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(14,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 15 │ console.log((a(8) * a(numGetter()) + 6 / 10).toString()); // Complex Expression\n    │                       ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(15,27)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 16 │ console.log((arrGetter()[1]).toString()); // Array element\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(16,18)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 17 │ console.log(`The number is ${numGetter()}`); // Template string\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(17,34)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 19 │ console.assert(numGetter() === 42, \"Number is not 42\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(19,20)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 20 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(20,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 21 │ console.assert(arrGetter().length === 3, \"Array length is not 3\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(21,20)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 22 │ console.assert(typeof funcGetter() === \"function\", \"Func is not a function\");\n    │                       ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,27)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 24 │ console.warn((numGetter()).toString());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(24,19)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 25 │ console.error(strGetter());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(25,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 27 │ console.debug((arrGetter()).toString());\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(27,20)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11069.614399969578,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 16612.546600043774,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 211.60312999784946,
+        "standardDeviation": 18.705241532877373
+      },
+      "annotated": {
+        "size": 3122,
+        "lines": 64,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 173.77473500072955,
+        "standardDeviation": 14.8593902417643
+      },
+      "transpiled": {
+        "size": 21144,
+        "lines": 61,
+        "output": "42.0\nHello, World!\n1.0,2.0,3.0\n20.0\nEntering function a\n10.0\n342.0\nEntering function a\nEntering function a\n1344.6\n2.0\nThe number is 42.0\nimportant information\n1.0,2.0,3.0\n",
+        "averageRuntime": 226.32117499411106,
+        "standardDeviation": 33.15955913299226
+      },
+      "compilable": {
+        "size": 2189,
+        "lines": 43
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8306.537800014019,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nfuncGetter -> Dependencies: func\nfuncSetter -> Dependencies: func, value\na -> Dependencies: \nmain -> Dependencies: autoFunc148, toString, a\nautoFunc148 -> Dependencies: \n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'numSetter'.\n   :\n 4 │ numSetter(42);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'strSetter'.\n   :\n 5 │ strSetter(\"Hello, World!\");\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(5,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 6 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'funcSetter'.\n   :\n 7 │ funcSetter(function autoFunc148(n: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 11 │ console.log((numGetter()).toString()); // Number\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(11,18)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 12 │ console.log(strGetter()); // String\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(12,17)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 13 │ console.log((arrGetter()).toString()); // Array\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(13,18)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 14 │ console.log((funcGetter()(10)).toString()); // Function call\n    │              ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(14,18)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 16 │ console.log((8 * numGetter() + 6).toString()); // Expression\n    │                  ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(16,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 17 │ console.log((a(8) * a(numGetter()) + 6 / 10).toString()); // Complex Expression\n    │                       ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(17,27)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 18 │ console.log((arrGetter()[1]).toString()); // Array element\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(18,18)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 19 │ console.log(`The number is ${numGetter()}`); // Template string\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(19,34)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 21 │ console.assert(numGetter() === 42, \"Number is not 42\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(21,20)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 23 │ console.assert(arrGetter().length === 3, \"Array length is not 3\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(23,20)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 24 │ console.assert(typeof funcGetter() === \"function\", \"Func is not a function\");\n    │                       ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(24,27)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 26 │ console.warn((numGetter()).toString());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(26,19)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 27 │ console.error(strGetter());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(27,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 29 │ console.debug((arrGetter()).toString());\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(29,20)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13484.686800003052,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 21793.21029996872,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 165.9375700056553,
+        "standardDeviation": 14.561498389940766
+      },
+      "annotated": {
+        "size": 3171,
+        "lines": 66,
+        "output": "42\nHello, World!\n1,2,3\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n1,2,3\n",
+        "averageRuntime": 165.38388999700547,
+        "standardDeviation": 11.503489039409434
+      },
+      "transpiled": {
+        "size": 21144,
+        "lines": 61,
+        "output": "42.0\nHello, World!\n1.0,2.0,3.0\n20.0\nEntering function a\n10.0\n342.0\nEntering function a\nEntering function a\n1344.6\n2.0\nThe number is 42.0\nimportant information\n1.0,2.0,3.0\n",
+        "averageRuntime": 186.54537499845028,
+        "standardDeviation": 15.079857557980347
+      },
+      "compilable": {
+        "size": 2238,
+        "lines": 45
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7663.166199982166,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nfuncGetter -> Dependencies: func\nfuncSetter -> Dependencies: func, value\na -> Dependencies: \nmain -> Dependencies: autoFunc148, a\nautoFunc148 -> Dependencies: \n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation failed: 22 compile error(s)\nERROR TS2304: Cannot find name 'numSetter'.\n   :\n 4 │ numSetter(42);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(4,5)\r\n\r\nERROR TS2304: Cannot find name 'strSetter'.\n   :\n 5 │ strSetter(\"Hello, World!\");\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(5,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n   :\n 6 │ arrSetter([1, 2, 3]);\n   │ ~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(6,5)\r\n\r\nERROR TS2304: Cannot find name 'funcSetter'.\n   :\n 7 │ funcSetter(function autoFunc148(n: number): number {\n   │ ~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 11 │ console.log(numGetter()); // Number\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(11,17)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 12 │ console.log(strGetter()); // String\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(12,17)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 13 │ console.log(arrGetter()); // Array\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(13,17)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 14 │ console.log(funcGetter()(10)); // Function call\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(14,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 15 │ console.log(a(5)); // Function call (defined above)\n    │             ~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(15,17)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 16 │ console.log(8 * numGetter() + 6); // Expression\n    │                 ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(16,21)\r\n\r\nERROR TS2322: Type 'i32' is not assignable to type '~lib/string/String'.\n    :\n 16 │ console.log(8 * numGetter() + 6); // Expression\n    │             ~~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(16,17)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 17 │ console.log(a(8) * a(numGetter()) + 6 / 10); // Complex Expression\n    │                      ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(17,26)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 17 │ console.log(a(8) * a(numGetter()) + 6 / 10); // Complex Expression\n    │             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(17,17)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 18 │ console.log(arrGetter()[1]); // Array element\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(18,17)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 19 │ console.log(`The number is ${numGetter()}`); // Template string\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(19,34)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 21 │ console.assert(numGetter() === 42, \"Number is not 42\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(21,20)\r\n\r\nERROR TS1140: Type argument expected.\n    :\n 22 │ console.assert(numGetter() < 0, \"Number is not negative\");\n    │               ^\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(22,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 23 │ console.assert(arrGetter().length === 3, \"Array length is not 3\");\n    │                ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(23,20)\r\n\r\nERROR TS2304: Cannot find name 'funcGetter'.\n    :\n 24 │ console.assert(typeof funcGetter() === \"function\", \"Func is not a function\");\n    │                       ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(24,27)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 26 │ console.warn(numGetter());\n    │              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(26,18)\r\n\r\nERROR TS2304: Cannot find name 'strGetter'.\n    :\n 27 │ console.error(strGetter());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(27,19)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 29 │ console.debug(arrGetter());\n    │               ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(29,19)\r\n\r\nFAILURE 22 compile error(s)\r\n\nTrying to compile functions: a,main\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation failed: 9 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 27 │ console.log(numGetter()); // Number\n    │             ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(27,17)\r\n\r\nERROR TS2322: Type '~lib/array/Array<f64>' is not assignable to type '~lib/string/String'.\n    :\n 29 │ console.log(arrGetter()); // Array\n    │             ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(29,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 30 │ console.log(funcGetter()(10)); // Function call\n    │             ~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(30,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 31 │ console.log(a(5)); // Function call (defined above)\n    │             ~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(31,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 32 │ console.log(8 * numGetter() + 6); // Expression\n    │             ~~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(32,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 33 │ console.log(a(8) * a(numGetter()) + 6 / 10); // Complex Expression\n    │             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(33,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 34 │ console.log(arrGetter()[1]); // Array element\n    │             ~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(34,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 42 │ console.warn(numGetter());\n    │              ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(42,18)\r\n\r\nERROR TS2322: Type '~lib/array/Array<f64>' is not assignable to type '~lib/string/String'.\n    :\n 45 │ console.debug(arrGetter());\n    │               ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/console_output/console_compilable.ts(45,19)\r\n\r\nFAILURE 9 compile error(s)\r\n\nTrying to compile functions: autoFunc148,a\nImportable Functions: numGetter,numSetter,numUnary,strGetter,strSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,funcGetter,funcSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 19715.226999998093,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 27379.017799973488,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 191.84460500478744,
+        "standardDeviation": 23.134753296551775
+      },
+      "annotated": {
+        "size": 3054,
+        "lines": 66,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 180.0140549957752,
+        "standardDeviation": 19.243513947637364
+      },
+      "transpiled": {
+        "size": 5798,
+        "lines": 88,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 199.00596500635146,
+        "standardDeviation": 11.208107851751997
+      },
+      "compilable": {
+        "size": 161,
+        "lines": 4
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\console.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4449.786900013685,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\console_annotated.ts",
+    "selectorOutput": "Function Dependencies:\na -> Dependencies: \n\nTrying to compile functions: a\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 7003.637699991465,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\console_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\console_output\\console_compilable.ts",
+    "transpilationTime": 11454.100800007582,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 1170,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\n10\n342\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 157.18791999965907,
+        "standardDeviation": 5.475139834858659
+      },
+      "annotated": {
+        "size": 1105,
+        "lines": 25,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 159.01026999801397,
+        "standardDeviation": 8.444524678821223
+      },
+      "transpiled": {
+        "size": 5388,
+        "lines": 84,
+        "output": "42\nHello, World!\n[ 1, 2, 3 ]\n20\nEntering function a\n10\n342\nEntering function a\nEntering function a\n1344.6\n2\nThe number is 42\nimportant information\n[ 1, 2, 3 ]\n",
+        "averageRuntime": 166.6833149969578,
+        "standardDeviation": 16.020716693923738
+      },
+      "compilable": {
+        "size": 92,
+        "lines": 1
+      }
+    }
+  }
+}

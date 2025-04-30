@@ -1,0 +1,366 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 11119.768999993801,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nmain -> Dependencies: autoFunc1, autoFunc51\nautoFunc1 -> Dependencies: \nautoFunc51 -> Dependencies: \n\nTrying to compile functions: main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11995.23290002346,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\anonymous_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_compilable.ts",
+    "transpilationTime": 23116.038399994373,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 127,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 178.12756499946119,
+        "standardDeviation": 10.921757031469554
+      },
+      "annotated": {
+        "size": 211,
+        "lines": 9,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 164.76269499361516,
+        "standardDeviation": 12.400546158432386
+      },
+      "transpiled": {
+        "size": 2325,
+        "lines": 2,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 183.13087500035763,
+        "standardDeviation": 10.749343142104681
+      },
+      "compilable": {
+        "size": 211,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6615.810100018978,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nautoFunc1 -> Dependencies: \nautoFunc51 -> Dependencies: \n\nTrying to compile functions: autoFunc1,autoFunc51\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12729.562999993563,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\anonymous_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_compilable.ts",
+    "transpilationTime": 19347.01559999585,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 127,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 230.4300550058484,
+        "standardDeviation": 41.65424709049335
+      },
+      "annotated": {
+        "size": 153,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 249.17249999940395,
+        "standardDeviation": 57.57990709584071
+      },
+      "transpiled": {
+        "size": 2318,
+        "lines": 3,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 313.2832550019026,
+        "standardDeviation": 44.56531149265316
+      },
+      "compilable": {
+        "size": 158,
+        "lines": 6
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8550.573199987411,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nmain -> Dependencies: autoFunc1, autoFunc51\nautoFunc1 -> Dependencies: \nautoFunc51 -> Dependencies: \n\nTrying to compile functions: main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11506.800900012255,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\anonymous_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_compilable.ts",
+    "transpilationTime": 20058.302100002766,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 127,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 160.1148750051856,
+        "standardDeviation": 6.860413278323543
+      },
+      "annotated": {
+        "size": 211,
+        "lines": 9,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 171.2549700021744,
+        "standardDeviation": 16.344377292256887
+      },
+      "transpiled": {
+        "size": 2325,
+        "lines": 2,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 185.67056000083684,
+        "standardDeviation": 22.30408558676544
+      },
+      "compilable": {
+        "size": 211,
+        "lines": 8
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7258.104099988937,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nmain -> Dependencies: \n\nTrying to compile functions: main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11496.167599976063,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\anonymous_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_compilable.ts",
+    "transpilationTime": 18754.877299964428,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 127,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 188.04323999881746,
+        "standardDeviation": 17.299428418154697
+      },
+      "annotated": {
+        "size": 186,
+        "lines": 9,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 211.6616449981928,
+        "standardDeviation": 34.6651353845339
+      },
+      "transpiled": {
+        "size": 2325,
+        "lines": 2,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 187.9607950001955,
+        "standardDeviation": 18.303909547374843
+      },
+      "compilable": {
+        "size": 186,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7326.230999946594,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nmain -> Dependencies: autoFunc1, autoFunc51\nautoFunc1 -> Dependencies: \nautoFunc51 -> Dependencies: \n\nTrying to compile functions: main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10728.313700020313,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\anonymous_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_compilable.ts",
+    "transpilationTime": 18055.266599953175,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 127,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 166.4523350030184,
+        "standardDeviation": 9.370212704959975
+      },
+      "annotated": {
+        "size": 211,
+        "lines": 9,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 159.60413000881672,
+        "standardDeviation": 9.72769356409728
+      },
+      "transpiled": {
+        "size": 2325,
+        "lines": 2,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 171.83775499761106,
+        "standardDeviation": 8.329006157757593
+      },
+      "compilable": {
+        "size": 211,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7060.9733999967575,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nmain -> Dependencies: autoFunc1, autoFunc51\nautoFunc1 -> Dependencies: \nautoFunc51 -> Dependencies: \n\nTrying to compile functions: main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13167.965799987316,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\anonymous_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_output\\anonymous_compilable.ts",
+    "transpilationTime": 20229.769599974155,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 127,
+        "lines": 6,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 181.21570499837398,
+        "standardDeviation": 14.043771012851085
+      },
+      "annotated": {
+        "size": 211,
+        "lines": 9,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 173.01782499849796,
+        "standardDeviation": 9.444455281463812
+      },
+      "transpiled": {
+        "size": 2325,
+        "lines": 2,
+        "output": "Hi, crocodile!\nSee you later, aligator!\n",
+        "averageRuntime": 190.14800999760627,
+        "standardDeviation": 16.356418673887177
+      },
+      "compilable": {
+        "size": 211,
+        "lines": 8
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4236.889200001955,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\anonymous_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  }
+}

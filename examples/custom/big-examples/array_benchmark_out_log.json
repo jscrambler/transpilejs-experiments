@@ -1,0 +1,59 @@
+{
+    "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+        "settings": {
+            "nameFunctionExpressions": true,
+            "injectIntegerCasts": true,
+            "injectTraceLogs": true,
+            "generateMain": true,
+            "generateGettersAndSetters": true,
+            "performOtherCodeTransformations": true,
+            "includeConsoleFunctions": true,
+            "deleteIntermediateFiles": true
+        },
+        "version": "Tese",
+        "originalFilePath": "transpilejs\\examples\\custom\\big-examples\\array_benchmark.js",
+        "annotatorOutput": "Annotator completed successfully!\n",
+        "annotatorTime": 5143.878200009465,
+        "annotatorSuccess": true,
+        "annotatedFilePath": "transpilejs\\examples\\custom\\big-examples\\array_benchmark_annotated.ts",
+        "selectorOutput": "Function Dependencies:\narrayManipulations -> Dependencies: push, reverse\nmain -> Dependencies: arrayManipulations, toString\n\nTrying to compile functions: arrayManipulations,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+        "selectorTime": 8129.980399996042,
+        "selectorSuccess": true,
+        "outputFolder": "transpilejs\\examples\\custom\\big-examples\\array_benchmark_output",
+        "transpiledFilePath": "transpilejs\\examples\\custom\\big-examples\\array_benchmark_output\\array_benchmark_transpiled.js",
+        "compilableFilePath": "transpilejs\\examples\\custom\\big-examples\\array_benchmark_output\\array_benchmark_compilable.ts",
+        "transpilationTime": 13274.555500000715,
+        "transpilationSuccess": true,
+        "runner": {
+            "success": true,
+            "ran": true,
+            "runs": 20,
+            "original": {
+                "size": 352,
+                "lines": 15,
+                "output": "175\n",
+                "averageRuntime": 192.40351000130175,
+                "standardDeviation": 9.153518493337703
+            },
+            "annotated": {
+                "size": 532,
+                "lines": 19,
+                "output": "Entering function arrayManipulations\n175\n",
+                "averageRuntime": 199.11786499992013,
+                "standardDeviation": 8.580215386336878
+            },
+            "transpiled": {
+                "size": 10700,
+                "lines": 3,
+                "output": "Entering function arrayManipulations\n175.0\n",
+                "averageRuntime": 205.08792499750854,
+                "standardDeviation": 6.1885988791298505
+            },
+            "compilable": {
+                "size": 525,
+                "lines": 17
+            }
+        }
+    },
+    "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles"
+}

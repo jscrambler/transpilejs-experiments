@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9456.955500006676,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \ncGetter -> Dependencies: \ncSetter -> Dependencies: \ndGetter -> Dependencies: \ndSetter -> Dependencies: \nwecanbevoid -> Dependencies: \nmain -> Dependencies: wecanbevoid\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n   :\n 7 │ aSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'bSetter'.\n   :\n 8 │ bSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'cSetter'.\n   :\n 9 │ cSetter(void (3));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'dSetter'.\n    :\n 10 │ dSetter(void (4));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'any'.\n   :\n 2 │ declare function aSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(2,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 4 │ declare function bSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(4,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 6 │ declare function cSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(6,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 8 │ declare function dSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,33)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n   :\n 7 │ aSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'bSetter'.\n   :\n 8 │ bSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'cSetter'.\n   :\n 9 │ cSetter(void (3));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'dSetter'.\n    :\n 10 │ dSetter(void (4));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14718.517799973488,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 24176.103100001812,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 173.7808300048113,
+        "standardDeviation": 9.347153656720549
+      },
+      "annotated": {
+        "size": 609,
+        "lines": 24,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 166.9808050096035,
+        "standardDeviation": 9.981622179838242
+      },
+      "transpiled": {
+        "size": 2830,
+        "lines": 22,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 194.4336400002241,
+        "standardDeviation": 21.23180482337992
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9072.1602999866,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \ncGetter -> Dependencies: \ncSetter -> Dependencies: \ndGetter -> Dependencies: \ndSetter -> Dependencies: \nwecanbevoid -> Dependencies: \n\nTrying to compile functions: wecanbevoid\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12038.579600006342,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 21111.480100005865,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 172.88569500148296,
+        "standardDeviation": 22.40335647485993
+      },
+      "annotated": {
+        "size": 551,
+        "lines": 21,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 195.3788099989295,
+        "standardDeviation": 16.512059586701678
+      },
+      "transpiled": {
+        "size": 2782,
+        "lines": 19,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 186.86173999905586,
+        "standardDeviation": 33.11711304421419
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7019.230699986219,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nwecanbevoid -> Dependencies: \nmain -> Dependencies: wecanbevoid\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: \nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'a'.\n   :\n 7 │ a = void (0);\n   │ ~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'b'.\n   :\n 8 │ b = void (0);\n   │ ~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'c'.\n   :\n 9 │ c = void (3);\n   │ ~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'd'.\n    :\n 10 │ d = void (4);\n    │ ~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11015.607600003481,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 18035.543000012636,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 156.06976500153542,
+        "standardDeviation": 9.042018675958243
+      },
+      "annotated": {
+        "size": 273,
+        "lines": 16,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 157.83896999806166,
+        "standardDeviation": 23.82329706930604
+      },
+      "transpiled": {
+        "size": 2765,
+        "lines": 25,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 162.21515499800444,
+        "standardDeviation": 11.684677491802978
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8896.370099961758,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \ncGetter -> Dependencies: \ncSetter -> Dependencies: \ndGetter -> Dependencies: \ndSetter -> Dependencies: \nwecanbevoid -> Dependencies: \nmain -> Dependencies: wecanbevoid\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n   :\n 7 │ aSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'bSetter'.\n   :\n 8 │ bSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'cSetter'.\n   :\n 9 │ cSetter(void (3));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'dSetter'.\n    :\n 10 │ dSetter(void (4));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'any'.\n   :\n 2 │ declare function aSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(2,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 4 │ declare function bSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(4,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 6 │ declare function cSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(6,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 8 │ declare function dSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,33)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n   :\n 7 │ aSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'bSetter'.\n   :\n 8 │ bSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'cSetter'.\n   :\n 9 │ cSetter(void (3));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'dSetter'.\n    :\n 10 │ dSetter(void (4));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16457.60680001974,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 25354.605599999428,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 200.87110500633716,
+        "standardDeviation": 18.422923189010184
+      },
+      "annotated": {
+        "size": 605,
+        "lines": 24,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 175.39448500573636,
+        "standardDeviation": 21.68765647634749
+      },
+      "transpiled": {
+        "size": 2830,
+        "lines": 22,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 177.2500650048256,
+        "standardDeviation": 23.60763550840014
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6467.3231999874115,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \ncGetter -> Dependencies: \ncSetter -> Dependencies: \ndGetter -> Dependencies: \ndSetter -> Dependencies: \nwecanbevoid -> Dependencies: \nmain -> Dependencies: wecanbevoid\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n   :\n 7 │ aSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'bSetter'.\n   :\n 8 │ bSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'cSetter'.\n   :\n 9 │ cSetter(void (3));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'dSetter'.\n    :\n 10 │ dSetter(void (4));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'any'.\n   :\n 2 │ declare function aSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(2,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 4 │ declare function bSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(4,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 6 │ declare function cSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(6,33)\r\n\r\nERROR TS2304: Cannot find name 'any'.\n   :\n 8 │ declare function dSetter(value: any): void;\n   │                                 ~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,33)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n   :\n 7 │ aSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,5)\r\n\r\nERROR TS2304: Cannot find name 'bSetter'.\n   :\n 8 │ bSetter(void (0));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(8,5)\r\n\r\nERROR TS2304: Cannot find name 'cSetter'.\n   :\n 9 │ cSetter(void (3));\n   │ ~~~~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,5)\r\n\r\nERROR TS2304: Cannot find name 'dSetter'.\n    :\n 10 │ dSetter(void (4));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(10,5)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: wecanbevoid\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12494.573300004005,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 18962.723299980164,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 155.54720999896526,
+        "standardDeviation": 8.504363867630774
+      },
+      "annotated": {
+        "size": 605,
+        "lines": 24,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 150.15203999876977,
+        "standardDeviation": 9.942728350322131
+      },
+      "transpiled": {
+        "size": 2830,
+        "lines": 22,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 155.94616499841214,
+        "standardDeviation": 11.886684016515844
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7244.218100011349,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \ncGetter -> Dependencies: \ncSetter -> Dependencies: \ndGetter -> Dependencies: \ndSetter -> Dependencies: \nwecanbevoid -> Dependencies: \nmain -> Dependencies: wecanbevoid\n\nTrying to compile functions: wecanbevoid,main\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation failed: 4 parse error(s)\nERROR TS1005: ')' expected.\n   :\n 7 │ aSetter(void 0);\n   │         ~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,13)\r\n\r\nERROR TS1109: Expression expected.\n   :\n 7 │ aSetter(void 0);\n   │               ~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(7,19)\r\n\r\nERROR TS1005: ')' expected.\n   :\n 9 │ cSetter(void 3);\n   │         ~~~~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,13)\r\n\r\nERROR TS1109: Expression expected.\n   :\n 9 │ cSetter(void 3);\n   │               ~\n   └─ in ../examples/custom/my-examples/void_output/void_compilable.ts(9,19)\r\n\r\nFAILURE 4 parse error(s)\r\n\nTrying to compile functions: wecanbevoid\nImportable Functions: aGetter,aSetter,bGetter,bSetter,cGetter,cSetter,dGetter,dSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14467.142899990082,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 21711.965600013733,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 181.76903500556946,
+        "standardDeviation": 28.36429914618206
+      },
+      "annotated": {
+        "size": 605,
+        "lines": 24,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 186.84960500001907,
+        "standardDeviation": 24.421542984353607
+      },
+      "transpiled": {
+        "size": 2826,
+        "lines": 22,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 210.40845499932766,
+        "standardDeviation": 21.16946714601416
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\void.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4230.148799985647,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\void_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nwecanbevoid -> Dependencies: \n\nTrying to compile functions: wecanbevoid\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 6914.01810002327,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\void_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\void_output\\void_compilable.ts",
+    "transpilationTime": 11144.81139999628,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 159,
+        "lines": 8,
+        "output": "The call of the void\n",
+        "averageRuntime": 155.62643499970437,
+        "standardDeviation": 11.05622268886781
+      },
+      "annotated": {
+        "size": 207,
+        "lines": 9,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 152.74735000431536,
+        "standardDeviation": 14.139085481054053
+      },
+      "transpiled": {
+        "size": 2701,
+        "lines": 18,
+        "output": "Entering function wecanbevoid\nThe call of the void\n",
+        "averageRuntime": 161.24040499925613,
+        "standardDeviation": 9.617544608316056
+      },
+      "compilable": {
+        "size": 132,
+        "lines": 4
+      }
+    }
+  }
+}

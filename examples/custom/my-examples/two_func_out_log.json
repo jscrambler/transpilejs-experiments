@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9111.495000004768,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \nmain -> Dependencies: fibo_ex, getArrayL\n\nTrying to compile functions: fibo_ex,getArrayL,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16227.190099954605,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 25339.53339999914,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 173.8022150039673,
+        "standardDeviation": 17.8188131811972
+      },
+      "annotated": {
+        "size": 548,
+        "lines": 23,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 167.67853000164033,
+        "standardDeviation": 11.984610075264927
+      },
+      "transpiled": {
+        "size": 6571,
+        "lines": 2,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 185.57581998705865,
+        "standardDeviation": 11.617183256967515
+      },
+      "compilable": {
+        "size": 546,
+        "lines": 22
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6932.679900020361,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \n\nTrying to compile functions: fibo_ex,getArrayL\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10994.325300008059,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 17928.65720000863,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 180.55924499332906,
+        "standardDeviation": 16.14897004988853
+      },
+      "annotated": {
+        "size": 506,
+        "lines": 20,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 195.65907500386237,
+        "standardDeviation": 15.078745138470648
+      },
+      "transpiled": {
+        "size": 7801,
+        "lines": 3,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 199.9246000006795,
+        "standardDeviation": 31.800812548354404
+      },
+      "compilable": {
+        "size": 487,
+        "lines": 18
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6776.566300004721,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \nmain -> Dependencies: fibo_ex, getArrayL\n\nTrying to compile functions: fibo_ex,getArrayL,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13613.841600000858,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 20390.978599995375,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 158.44355000108482,
+        "standardDeviation": 13.896262524236185
+      },
+      "annotated": {
+        "size": 548,
+        "lines": 23,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 151.31450999826194,
+        "standardDeviation": 11.745591623433205
+      },
+      "transpiled": {
+        "size": 6571,
+        "lines": 2,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 162.46262000352144,
+        "standardDeviation": 8.402167357566674
+      },
+      "compilable": {
+        "size": 546,
+        "lines": 22
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7525.225099980831,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \nmain -> Dependencies: fibo_ex, getArrayL\n\nTrying to compile functions: fibo_ex,getArrayL,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11357.461600005627,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 18883.385199964046,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 185.5301250040531,
+        "standardDeviation": 19.864222174558407
+      },
+      "annotated": {
+        "size": 548,
+        "lines": 23,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 197.21141500175,
+        "standardDeviation": 36.878387992627836
+      },
+      "transpiled": {
+        "size": 6571,
+        "lines": 2,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 166.37878500521182,
+        "standardDeviation": 11.73568495427919
+      },
+      "compilable": {
+        "size": 546,
+        "lines": 22
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6115.606000006199,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \nmain -> Dependencies: fibo_ex, getArrayL\n\nTrying to compile functions: fibo_ex,getArrayL,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 9632.122599959373,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 15748.319099962711,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 163.07663999795915,
+        "standardDeviation": 10.24501147567689
+      },
+      "annotated": {
+        "size": 548,
+        "lines": 23,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 163.91932500302792,
+        "standardDeviation": 21.699311454593555
+      },
+      "transpiled": {
+        "size": 6571,
+        "lines": 2,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 164.8935199946165,
+        "standardDeviation": 8.441105764586377
+      },
+      "compilable": {
+        "size": 546,
+        "lines": 22
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7792.660799980164,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \nmain -> Dependencies: fibo_ex, getArrayL\n\nTrying to compile functions: fibo_ex,getArrayL,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12573.053499996662,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 20366.427399992943,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 183.64399999976158,
+        "standardDeviation": 13.982356420460507
+      },
+      "annotated": {
+        "size": 548,
+        "lines": 23,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 178.766010004282,
+        "standardDeviation": 14.822958138893146
+      },
+      "transpiled": {
+        "size": 6571,
+        "lines": 2,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 195.66247000694275,
+        "standardDeviation": 18.621827117825713
+      },
+      "compilable": {
+        "size": 546,
+        "lines": 22
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4194.545900017023,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibo_ex -> Dependencies: \ngetArrayL -> Dependencies: \n\nTrying to compile functions: fibo_ex,getArrayL\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 7418.188400000334,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\two_func_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\two_func_output\\two_func_compilable.ts",
+    "transpilationTime": 11613.356499999762,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 371,
+        "lines": 18,
+        "output": "",
+        "averageRuntime": 149.06448999792337,
+        "standardDeviation": 7.602563923407029
+      },
+      "annotated": {
+        "size": 506,
+        "lines": 20,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 156.37379999756814,
+        "standardDeviation": 13.269491553814735
+      },
+      "transpiled": {
+        "size": 7801,
+        "lines": 3,
+        "output": "Entering function fibo_ex\nEntering function getArrayL\n",
+        "averageRuntime": 161.83516500145197,
+        "standardDeviation": 12.613662475068613
+      },
+      "compilable": {
+        "size": 487,
+        "lines": 18
+      }
+    }
+  }
+}

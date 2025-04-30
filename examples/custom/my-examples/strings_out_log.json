@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 10027.418799996376,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\nmain -> Dependencies: printString\n\nTrying to compile functions: printString,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11361.632499992847,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 21389.74540001154,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 174.7625249952078,
+        "standardDeviation": 13.936025264678221
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 9,
+        "output": "Entering function printString\n",
+        "averageRuntime": 172.63284999728202,
+        "standardDeviation": 14.657753613445568
+      },
+      "transpiled": {
+        "size": 9336,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 194.48173001110553,
+        "standardDeviation": 15.954855832976765
+      },
+      "compilable": {
+        "size": 255,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6786.7387999892235,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\n\nTrying to compile functions: printString\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11578.765899986029,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 18366.284999996424,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 158.73372999727727,
+        "standardDeviation": 9.261810978654745
+      },
+      "annotated": {
+        "size": 217,
+        "lines": 6,
+        "output": "Entering function printString\n",
+        "averageRuntime": 185.4830649971962,
+        "standardDeviation": 22.057426417503684
+      },
+      "transpiled": {
+        "size": 9208,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 203.1766549989581,
+        "standardDeviation": 23.6246691308883
+      },
+      "compilable": {
+        "size": 196,
+        "lines": 5
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8391.829299986362,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\nmain -> Dependencies: printString\n\nTrying to compile functions: printString,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11547.547100007534,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 19940.05949997902,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 161.12878500819207,
+        "standardDeviation": 12.917494963601577
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 9,
+        "output": "Entering function printString\n",
+        "averageRuntime": 159.80040999948977,
+        "standardDeviation": 17.47502698376146
+      },
+      "transpiled": {
+        "size": 9336,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 163.0643099978566,
+        "standardDeviation": 14.66734551217152
+      },
+      "compilable": {
+        "size": 255,
+        "lines": 8
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7212.774600028992,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\nmain -> Dependencies: printString\n\nTrying to compile functions: printString,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11771.0299000144,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 18984.3397000432,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 156.59274999797344,
+        "standardDeviation": 11.753851006013464
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 9,
+        "output": "Entering function printString\n",
+        "averageRuntime": 206.08896499574183,
+        "standardDeviation": 22.00130081474845
+      },
+      "transpiled": {
+        "size": 9336,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 214.9995799958706,
+        "standardDeviation": 30.845947208798066
+      },
+      "compilable": {
+        "size": 255,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6605.664900004864,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\nmain -> Dependencies: printString\n\nTrying to compile functions: printString,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 9478.491500020027,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 16084.86470001936,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 168.71702500283718,
+        "standardDeviation": 13.62059762750855
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 9,
+        "output": "Entering function printString\n",
+        "averageRuntime": 171.690520003438,
+        "standardDeviation": 10.469473032806052
+      },
+      "transpiled": {
+        "size": 9336,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 177.50305499434472,
+        "standardDeviation": 19.999830233091423
+      },
+      "compilable": {
+        "size": 255,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7459.05269998312,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\nmain -> Dependencies: printString\n\nTrying to compile functions: printString,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11936.130899965763,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 19395.770899951458,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 169.47824999690056,
+        "standardDeviation": 12.010231294587946
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 9,
+        "output": "Entering function printString\n",
+        "averageRuntime": 200.17918500602246,
+        "standardDeviation": 30.63213587906001
+      },
+      "transpiled": {
+        "size": 9336,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 187.18785000443458,
+        "standardDeviation": 18.06481494885213
+      },
+      "compilable": {
+        "size": 255,
+        "lines": 8
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\strings.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4274.629799991846,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\n\nTrying to compile functions: printString\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 7325.944499999285,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\strings_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\strings_output\\strings_compilable.ts",
+    "transpilationTime": 11601.049699991941,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 148,
+        "lines": 5,
+        "output": "",
+        "averageRuntime": 167.36946500092745,
+        "standardDeviation": 13.837063931094937
+      },
+      "annotated": {
+        "size": 217,
+        "lines": 6,
+        "output": "Entering function printString\n",
+        "averageRuntime": 161.62448500096798,
+        "standardDeviation": 14.626321887343508
+      },
+      "transpiled": {
+        "size": 9208,
+        "lines": 3,
+        "output": "Entering function printString\n",
+        "averageRuntime": 167.35242499560118,
+        "standardDeviation": 23.067405442336124
+      },
+      "compilable": {
+        "size": 196,
+        "lines": 5
+      }
+    }
+  }
+}

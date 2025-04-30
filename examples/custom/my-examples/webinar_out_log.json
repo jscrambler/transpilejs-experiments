@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9417.100699961185,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \nmain -> Dependencies: divideNumbers, toString\n\nTrying to compile functions: divideNumbers,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11698.817800045013,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 21116.62509995699,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 172.5991349965334,
+        "standardDeviation": 15.547238363370898
+      },
+      "annotated": {
+        "size": 256,
+        "lines": 9,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 185.6534049987793,
+        "standardDeviation": 20.65735732021954
+      },
+      "transpiled": {
+        "size": 8865,
+        "lines": 2,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 166.55160500705242,
+        "standardDeviation": 9.38603721526252
+      },
+      "compilable": {
+        "size": 256,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8930.06630000472,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \n\nTrying to compile functions: divideNumbers\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10862.972900003195,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 19793.77270001173,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 192.31880499273538,
+        "standardDeviation": 42.68120622894292
+      },
+      "annotated": {
+        "size": 214,
+        "lines": 6,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 202.19059500396253,
+        "standardDeviation": 30.47557602146037
+      },
+      "transpiled": {
+        "size": 2234,
+        "lines": 3,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 177.52484499663115,
+        "standardDeviation": 15.50486509165523
+      },
+      "compilable": {
+        "size": 135,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6804.13480001688,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \nmain -> Dependencies: divideNumbers, toString\n\nTrying to compile functions: divideNumbers,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10303.537299990654,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 17108.268099993467,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 144.98491999655963,
+        "standardDeviation": 6.732027255099146
+      },
+      "annotated": {
+        "size": 256,
+        "lines": 9,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 149.79459500163793,
+        "standardDeviation": 9.126383439954738
+      },
+      "transpiled": {
+        "size": 8865,
+        "lines": 2,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 166.48940499722957,
+        "standardDeviation": 22.874327255065808
+      },
+      "compilable": {
+        "size": 256,
+        "lines": 8
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7636.305499970913,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \nmain -> Dependencies: divideNumbers, toString\n\nTrying to compile functions: divideNumbers,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12334.520600020885,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 19971.429399967194,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 206.55576499998568,
+        "standardDeviation": 16.56405119996736
+      },
+      "annotated": {
+        "size": 256,
+        "lines": 9,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 168.5316699922085,
+        "standardDeviation": 15.717467881129002
+      },
+      "transpiled": {
+        "size": 8865,
+        "lines": 2,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 180.73362500965595,
+        "standardDeviation": 16.44132114490839
+      },
+      "compilable": {
+        "size": 256,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6259.395700037479,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \nmain -> Dependencies: divideNumbers, toString\n\nTrying to compile functions: divideNumbers,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 9455.055499970913,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 15714.990600049496,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 151.48270000815393,
+        "standardDeviation": 8.640683038488627
+      },
+      "annotated": {
+        "size": 256,
+        "lines": 9,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 157.67206500172614,
+        "standardDeviation": 8.418518822435919
+      },
+      "transpiled": {
+        "size": 8865,
+        "lines": 2,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 161.19431999921798,
+        "standardDeviation": 8.80907618108339
+      },
+      "compilable": {
+        "size": 256,
+        "lines": 8
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7466.921899974346,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \nmain -> Dependencies: divideNumbers\n\nTrying to compile functions: divideNumbers,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n   :\n 8 │ console.log(divideNumbers(22, 77));\n   │             ~~~~~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/webinar_output/webinar_compilable.ts(8,17)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: divideNumbers\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11602.985000014305,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 19070.682499945164,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 168.02871499359608,
+        "standardDeviation": 11.413757523740966
+      },
+      "annotated": {
+        "size": 243,
+        "lines": 9,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 212.97192499637603,
+        "standardDeviation": 33.73912289523829
+      },
+      "transpiled": {
+        "size": 2257,
+        "lines": 6,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 189.3945949971676,
+        "standardDeviation": 32.627476547468845
+      },
+      "compilable": {
+        "size": 135,
+        "lines": 4
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4147.451700001955,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ndivideNumbers -> Dependencies: \n\nTrying to compile functions: divideNumbers\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 7070.241300016642,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\webinar_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\webinar_output\\webinar_compilable.ts",
+    "transpilationTime": 11218.31050002575,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 130,
+        "lines": 5,
+        "output": "Hello from webinar.js\n0.2857142857142857\n",
+        "averageRuntime": 155.70989500135184,
+        "standardDeviation": 9.926395804310708
+      },
+      "annotated": {
+        "size": 201,
+        "lines": 6,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 156.06571000665426,
+        "standardDeviation": 12.349500591059746
+      },
+      "transpiled": {
+        "size": 2221,
+        "lines": 3,
+        "output": "Hello from webinar.js\nEntering function divideNumbers\n0.2857142857142857\n",
+        "averageRuntime": 165.9226849988103,
+        "standardDeviation": 15.549782127773762
+      },
+      "compilable": {
+        "size": 135,
+        "lines": 4
+      }
+    }
+  }
+}

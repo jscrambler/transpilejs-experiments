@@ -1,0 +1,29 @@
+{
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\exporter.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6524.283499956131,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\exporter_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nuncomp_dependency -> Dependencies: toString\nuncomp_not_dependecy -> Dependencies: toString, comp_called\ncomp_called -> Dependencies: uncomp_dependency\ncomp_notcalled -> Dependencies: \nmain -> Dependencies: comp_called, toString\n\nTrying to compile functions: uncomp_dependency,uncomp_not_dependecy,comp_called,comp_notcalled,main\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n    :\n 10 │ const arr = [1, 2, \"aaa\"];\n    │                    ~~~~~\n    └─ in ../examples/custom/my-examples/exporter_output/exporter_compilable.ts(10,24)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/exporter_output/exporter_compilable.ts(4,24)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: comp_called,comp_notcalled,main\nImportable Functions: uncomp_dependency\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'uncomp_dependency'.\n   :\n 4 │ const a: number = uncomp_dependency(4, 5);\n   │                   ~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/exporter_output/exporter_compilable.ts(4,23)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: comp_called,comp_notcalled,main\nImportable Functions: uncomp_dependency\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10175.276400089264,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\exporter_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\exporter_output\\exporter_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\exporter_output\\exporter_compilable.ts",
+    "transpilationTime": 16700.228600025177,
+    "transpilationSuccess": true
+  },
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles"
+}

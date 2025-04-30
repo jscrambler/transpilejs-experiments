@@ -1,0 +1,337 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 10831.632600009441,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglGetter -> Dependencies: \nglSetter -> Dependencies: \nglUnary -> Dependencies: \nmult -> Dependencies: toString\ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\nmain -> Dependencies: comp, toString, uncomp\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 22 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(22,5)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n    :\n 15 │ return 2 * glGetter();\n    │            ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(8,24)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 16 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n   :\n 9 │ return 2 * glGetter();\n   │            ~~~~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 15338.586199998856,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\needfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_compilable.ts",
+    "transpilationTime": 26171.03860002756,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 333,
+        "lines": 18,
+        "output": "[ 1, 2, \"aaa\" ]\n11\n60\n",
+        "averageRuntime": 177.0223149985075,
+        "standardDeviation": 10.831053274169804
+      },
+      "annotated": {
+        "size": 1042,
+        "lines": 42,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 181.74227500259877,
+        "standardDeviation": 12.691180383753135
+      },
+      "transpiled": {
+        "size": 10529,
+        "lines": 25,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11.0\nEntering function uncomp\nEntering function useGL\n60.0\n",
+        "averageRuntime": 175.78078499734403,
+        "standardDeviation": 12.416084090888392
+      },
+      "compilable": {
+        "size": 747,
+        "lines": 24
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6997.756699979305,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglGetter -> Dependencies: \nglSetter -> Dependencies: \nglUnary -> Dependencies: \nmult -> Dependencies: toString\ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\n\nTrying to compile functions: mult,comp,useGL,uncomp\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 2 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n    :\n 15 │ return 2 * glGetter();\n    │            ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: mult,comp,useGL,uncomp\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 6 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(6,24)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n   :\n 9 │ return 2 * glGetter();\n   │            ~~~~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14703.791999995708,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\needfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_compilable.ts",
+    "transpilationTime": 21702.105999976397,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 333,
+        "lines": 18,
+        "output": "[ 1, 2, \"aaa\" ]\n11\n60\n",
+        "averageRuntime": 180.98801000118254,
+        "standardDeviation": 14.083910991451953
+      },
+      "annotated": {
+        "size": 996,
+        "lines": 39,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 153.96217000186442,
+        "standardDeviation": 17.701701534553774
+      },
+      "transpiled": {
+        "size": 3549,
+        "lines": 28,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 202.888130004704,
+        "standardDeviation": 25.46123506172848
+      },
+      "compilable": {
+        "size": 534,
+        "lines": 17
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8833.703999996185,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts\" --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nmult -> Dependencies: toString\ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\nmain -> Dependencies: comp, toString, uncomp\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: \nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'gl'.\n    :\n 22 │ gl = 10;\n    │ ~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(22,5)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2304: Cannot find name 'gl'.\n    :\n 15 │ return 2 * gl;\n    │            ~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,uncomp\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'useGL'.\n   :\n 9 │ return n * useGL();\n   │            ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts\" --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nmult -> Dependencies: toString\ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\nmain -> Dependencies: comp, toString, uncomp\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: \nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'gl'.\n    :\n 22 │ gl = 10;\n    │ ~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(22,5)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2304: Cannot find name 'gl'.\n    :\n 15 │ return 2 * gl;\n    │            ~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,uncomp\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'useGL'.\n   :\n 9 │ return n * useGL();\n   │            ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7290.588700056076,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglGetter -> Dependencies: \nglSetter -> Dependencies: \nglUnary -> Dependencies: \nmult -> Dependencies: toString\ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\nmain -> Dependencies: comp, toString, uncomp\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 22 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(22,5)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n    :\n 15 │ return 2 * glGetter();\n    │            ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(8,24)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 16 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n   :\n 9 │ return 2 * glGetter();\n   │            ~~~~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16434.395699977875,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\needfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_compilable.ts",
+    "transpilationTime": 23725.974900007248,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 333,
+        "lines": 18,
+        "output": "[ 1, 2, \"aaa\" ]\n11\n60\n",
+        "averageRuntime": 186.4208499968052,
+        "standardDeviation": 23.84471402234851
+      },
+      "annotated": {
+        "size": 1042,
+        "lines": 42,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 157.59679999649524,
+        "standardDeviation": 21.659760373810055
+      },
+      "transpiled": {
+        "size": 10529,
+        "lines": 25,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11.0\nEntering function uncomp\nEntering function useGL\n60.0\n",
+        "averageRuntime": 225.89260499477388,
+        "standardDeviation": 22.9561877362964
+      },
+      "compilable": {
+        "size": 747,
+        "lines": 24
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6616.568700015545,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglGetter -> Dependencies: \nglSetter -> Dependencies: \nglUnary -> Dependencies: \nmult -> Dependencies: toString\ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\nmain -> Dependencies: comp, toString, uncomp\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 22 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(22,5)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n    :\n 15 │ return 2 * glGetter();\n    │            ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(8,24)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 16 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(16,5)\r\n\r\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n   :\n 9 │ return 2 * glGetter();\n   │            ~~~~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 17257.180800020695,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\needfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_compilable.ts",
+    "transpilationTime": 23874.564500033855,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 333,
+        "lines": 18,
+        "output": "[ 1, 2, \"aaa\" ]\n11\n60\n",
+        "averageRuntime": 170.1554800003767,
+        "standardDeviation": 13.992035485594998
+      },
+      "annotated": {
+        "size": 1042,
+        "lines": 42,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 162.10201000273227,
+        "standardDeviation": 8.85059945674192
+      },
+      "transpiled": {
+        "size": 10529,
+        "lines": 25,
+        "output": "Entering function comp\nEntering function mult\n1,2,aaa\n11.0\nEntering function uncomp\nEntering function useGL\n60.0\n",
+        "averageRuntime": 190.11329499781132,
+        "standardDeviation": 29.27902097532415
+      },
+      "compilable": {
+        "size": 747,
+        "lines": 24
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8421.236199975014,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nglGetter -> Dependencies: \nglSetter -> Dependencies: \nglUnary -> Dependencies: \nmult -> Dependencies: \ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\nmain -> Dependencies: comp, uncomp\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 6 compile error(s)\nERROR TS2304: Cannot find name 'glSetter'.\n    :\n 22 │ glSetter(10);\n    │ ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(22,5)\r\n\r\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2322: Type '~lib/array/Array<i32>' is not assignable to type '~lib/string/String'.\n   :\n 5 │ console.log(arr);\n   │             ~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(5,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 23 │ console.log(comp());\n    │             ~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(23,17)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n    :\n 15 │ return 2 * glGetter();\n    │            ~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 24 │ console.log(uncomp(3));\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(24,17)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: mult,comp,useGL,uncomp,main\nImportable Functions: glGetter,glSetter,glUnary\nAS Compilation failed: 4 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(8,24)\r\n\r\nERROR TS2322: Type '~lib/array/Array<i32>' is not assignable to type '~lib/string/String'.\n   :\n 9 │ console.log(arr);\n   │             ~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 27 │ console.log(comp());\n    │             ~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(27,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 28 │ console.log(uncomp(3));\n    │             ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(28,17)\r\n\r\nFAILURE 4 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'glGetter'.\n   :\n 9 │ return 2 * glGetter();\n   │            ~~~~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: comp,useGL,uncomp\nImportable Functions: glGetter,glSetter,glUnary,mult\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14096.0515999794,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\needfunct_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_output\\needfunct_compilable.ts",
+    "transpilationTime": 22517.857099950314,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 333,
+        "lines": 18,
+        "output": "[ 1, 2, \"aaa\" ]\n11\n60\n",
+        "averageRuntime": 176.39693999290466,
+        "standardDeviation": 11.553459406657595
+      },
+      "annotated": {
+        "size": 1003,
+        "lines": 42,
+        "output": "Entering function comp\nEntering function mult\n[ 1, 2, \"aaa\" ]\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 181.78773999810218,
+        "standardDeviation": 29.55381756922218
+      },
+      "transpiled": {
+        "size": 3550,
+        "lines": 31,
+        "output": "Entering function comp\nEntering function mult\n[ 1, 2, \"aaa\" ]\n11\nEntering function uncomp\nEntering function useGL\n60\n",
+        "averageRuntime": 184.34753500521182,
+        "standardDeviation": 29.221021757147405
+      },
+      "compilable": {
+        "size": 534,
+        "lines": 17
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4296.204900026321,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nmult -> Dependencies: \ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\n\nTrying to compile functions: mult,comp,useGL,uncomp\nImportable Functions: \nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2322: Type '~lib/array/Array<i32>' is not assignable to type '~lib/string/String'.\n   :\n 5 │ console.log(arr);\n   │             ~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(5,17)\r\n\r\nERROR TS2304: Cannot find name 'gl'.\n    :\n 15 │ return 2 * gl;\n    │            ~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,uncomp\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'useGL'.\n   :\n 9 │ return n * useGL();\n   │            ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\needfunct_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\nmult -> Dependencies: \ncomp -> Dependencies: mult\nuseGL -> Dependencies: \nuncomp -> Dependencies: useGL\n\nTrying to compile functions: mult,comp,useGL,uncomp\nImportable Functions: \nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 4 │ const arr = [1, 2, \"aaa\"];\n   │                    ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,24)\r\n\r\nERROR TS2322: Type '~lib/array/Array<i32>' is not assignable to type '~lib/string/String'.\n   :\n 5 │ console.log(arr);\n   │             ~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(5,17)\r\n\r\nERROR TS2304: Cannot find name 'gl'.\n    :\n 15 │ return 2 * gl;\n    │            ~~\n    └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(15,16)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: comp,uncomp\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'mult'.\n   :\n 4 │ const res: number = 5 + mult(2, 3);\n   │                         ~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(4,29)\r\n\r\nERROR TS2304: Cannot find name 'useGL'.\n   :\n 9 │ return n * useGL();\n   │            ~~~~~\n   └─ in ../examples/custom/my-examples/needfunct_output/needfunct_compilable.ts(9,16)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  }
+}

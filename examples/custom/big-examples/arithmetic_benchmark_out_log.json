@@ -1,0 +1,59 @@
+{
+    "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+        "settings": {
+            "nameFunctionExpressions": true,
+            "injectIntegerCasts": true,
+            "injectTraceLogs": true,
+            "generateMain": true,
+            "generateGettersAndSetters": true,
+            "performOtherCodeTransformations": true,
+            "includeConsoleFunctions": true,
+            "deleteIntermediateFiles": true
+        },
+        "version": "Tese",
+        "originalFilePath": "transpilejs\\examples\\custom\\big-examples\\arithmetic_benchmark.js",
+        "annotatorOutput": "Annotator completed successfully!\n",
+        "annotatorTime": 5721.947300001979,
+        "annotatorSuccess": true,
+        "annotatedFilePath": "transpilejs\\examples\\custom\\big-examples\\arithmetic_benchmark_annotated.ts",
+        "selectorOutput": "Function Dependencies:\narithmeticOperations -> Dependencies: \nmain -> Dependencies: arithmeticOperations, toString\n\nTrying to compile functions: arithmeticOperations,main\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+        "selectorTime": 10083.772199988365,
+        "selectorSuccess": true,
+        "outputFolder": "transpilejs\\examples\\custom\\big-examples\\arithmetic_benchmark_output",
+        "transpiledFilePath": "transpilejs\\examples\\custom\\big-examples\\arithmetic_benchmark_output\\arithmetic_benchmark_transpiled.js",
+        "compilableFilePath": "transpilejs\\examples\\custom\\big-examples\\arithmetic_benchmark_output\\arithmetic_benchmark_compilable.ts",
+        "transpilationTime": 15806.338799998164,
+        "transpilationSuccess": true,
+        "runner": {
+            "success": true,
+            "ran": true,
+            "runs": 20,
+            "original": {
+                "size": 370,
+                "lines": 16,
+                "output": "333333445833346500000\n",
+                "averageRuntime": 186.55010999888182,
+                "standardDeviation": 8.52459736384759
+            },
+            "annotated": {
+                "size": 594,
+                "lines": 20,
+                "output": "Entering function arithmeticOperations\n333333445833346500000\n",
+                "averageRuntime": 186.78981500044466,
+                "standardDeviation": 11.892910486267048
+            },
+            "transpiled": {
+                "size": 15460,
+                "lines": 3,
+                "output": "Entering function arithmeticOperations\n333333445833346500000.0\n",
+                "averageRuntime": 890.0633299998939,
+                "standardDeviation": 31.192385610068357
+            },
+            "compilable": {
+                "size": 567,
+                "lines": 18
+            }
+        }
+    },
+    "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles"
+}

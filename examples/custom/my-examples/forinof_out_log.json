@@ -1,0 +1,337 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 11012.273599982262,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrayGetter -> Dependencies: \narraySetter -> Dependencies: \narrayDoubleWay -> Dependencies: \narrayElementSetter -> Dependencies: \narrayElementPusher -> Dependencies: unshift, push\narrayElementDeleter -> Dependencies: shift, pop\narraySplice -> Dependencies: \nmapGetter -> Dependencies: \nmapSetter -> Dependencies: \nmapElementPusher -> Dependencies: set\nmapElementDeleter -> Dependencies: delete\nmapClear -> Dependencies: clear\nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \nbUnary -> Dependencies: \ntest -> Dependencies: \na -> Dependencies: \nmain -> Dependencies: toString, test\n\nTrying to compile functions: test,a,main\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 4 parse error(s)\nERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nFAILURE 4 parse error(s)\r\n\nTrying to compile functions: test,a\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 2 compile error(s)\nERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: test\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,a\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 17467.134200036526,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\forinof_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_compilable.ts",
+    "transpilationTime": 28479.94380003214,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 851,
+        "lines": 48,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n50\n",
+        "averageRuntime": 181.16762500405312,
+        "standardDeviation": 12.415470867629562
+      },
+      "annotated": {
+        "size": 4060,
+        "lines": 115,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 180.23357500433923,
+        "standardDeviation": 14.885371498559893
+      },
+      "transpiled": {
+        "size": 10383,
+        "lines": 129,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 195.27400500178337,
+        "standardDeviation": 16.673378968406805
+      },
+      "compilable": {
+        "size": 338,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9425.675900012255,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrayGetter -> Dependencies: \narraySetter -> Dependencies: \narrayDoubleWay -> Dependencies: \narrayElementSetter -> Dependencies: \narrayElementPusher -> Dependencies: unshift, push\narrayElementDeleter -> Dependencies: shift, pop\narraySplice -> Dependencies: \nmapGetter -> Dependencies: \nmapSetter -> Dependencies: \nmapElementPusher -> Dependencies: set\nmapElementDeleter -> Dependencies: delete\nmapClear -> Dependencies: clear\nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \nbUnary -> Dependencies: \ntest -> Dependencies: \na -> Dependencies: \n\nTrying to compile functions: test,a\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 2 compile error(s)\nERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: test\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,a\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 18015.3614000082,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\forinof_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_compilable.ts",
+    "transpilationTime": 27441.689300000668,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 851,
+        "lines": 48,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n50\n",
+        "averageRuntime": 206.74767500013112,
+        "standardDeviation": 20.863863936442524
+      },
+      "annotated": {
+        "size": 3861,
+        "lines": 112,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 196.43504499793053,
+        "standardDeviation": 28.09928596927822
+      },
+      "transpiled": {
+        "size": 10191,
+        "lines": 126,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 237.08472000211478,
+        "standardDeviation": 20.462352204759572
+      },
+      "compilable": {
+        "size": 338,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8223.421900004148,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ntest -> Dependencies: \na -> Dependencies: \nmain -> Dependencies: toString, test\n\nTrying to compile functions: test,a,main\nImportable Functions: \nAS Compilation failed: 4 parse error(s)\nERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in map) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in map) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in map) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 35 │ for (const ii in map) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nFAILURE 4 parse error(s)\r\n\nTrying to compile functions: test,a\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: test\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 15631.534599989653,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\forinof_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_compilable.ts",
+    "transpilationTime": 23855.56360000372,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 851,
+        "lines": 48,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n50\n",
+        "averageRuntime": 168.98649499714375,
+        "standardDeviation": 13.356536639799213
+      },
+      "annotated": {
+        "size": 1648,
+        "lines": 64,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 167.39242499917745,
+        "standardDeviation": 17.78759627939346
+      },
+      "transpiled": {
+        "size": 10040,
+        "lines": 133,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 182.80574000030757,
+        "standardDeviation": 17.671616000200164
+      },
+      "compilable": {
+        "size": 338,
+        "lines": 11
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 5553.087400019169,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrayGetter -> Dependencies: \narraySetter -> Dependencies: \narrayDoubleWay -> Dependencies: \narrayElementSetter -> Dependencies: \narrayElementPusher -> Dependencies: unshift, push\narrayElementDeleter -> Dependencies: shift, pop\narraySplice -> Dependencies: \nmapGetter -> Dependencies: \nmapSetter -> Dependencies: \nmapElementPusher -> Dependencies: set\nmapElementDeleter -> Dependencies: delete\nmapClear -> Dependencies: clear\nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \nbUnary -> Dependencies: \ntest -> Dependencies: \na -> Dependencies: \nmain -> Dependencies: toString, test\n\nTrying to compile functions: test,a,main\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 4 parse error(s)\nERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nFAILURE 4 parse error(s)\r\n\nTrying to compile functions: test,a\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 2 compile error(s)\nERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: test\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,a\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 20711.37309998274,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\forinof_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_compilable.ts",
+    "transpilationTime": 26265.257099986076,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 851,
+        "lines": 48,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n50\n",
+        "averageRuntime": 173.50938501060008,
+        "standardDeviation": 14.075110622852616
+      },
+      "annotated": {
+        "size": 4059,
+        "lines": 115,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 203.28709499537945,
+        "standardDeviation": 23.507018541309037
+      },
+      "transpiled": {
+        "size": 10383,
+        "lines": 129,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 206.3420500099659,
+        "standardDeviation": 30.679849932803528
+      },
+      "compilable": {
+        "size": 338,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8350.199000000954,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrayGetter -> Dependencies: \narraySetter -> Dependencies: \narrayDoubleWay -> Dependencies: \narrayElementSetter -> Dependencies: \narrayElementPusher -> Dependencies: unshift, push\narrayElementDeleter -> Dependencies: shift, pop\narraySplice -> Dependencies: \nmapGetter -> Dependencies: \nmapSetter -> Dependencies: \nmapElementPusher -> Dependencies: set\nmapElementDeleter -> Dependencies: delete\nmapClear -> Dependencies: clear\nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \nbUnary -> Dependencies: \ntest -> Dependencies: \na -> Dependencies: \nmain -> Dependencies: toString, test\n\nTrying to compile functions: test,a,main\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 4 parse error(s)\nERROR TS1110: Type expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │             ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,17)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 25 │ for (let _i_ in mapGetter()) {\n    │          ~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(25,14)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 35 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(35,16)\r\n\r\nFAILURE 4 parse error(s)\r\n\nTrying to compile functions: test,a\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 2 compile error(s)\nERROR AS234: Expression does not compile to a value at runtime.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nERROR TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'i32' has no compatible call signatures.\n    :\n 15 │ let oi = void (0);\n    │          ~~~~~~~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(15,14)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: test\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,a\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14514.688099980354,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\forinof_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_output\\forinof_compilable.ts",
+    "transpilationTime": 22865.476099967957,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 851,
+        "lines": 48,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n50\n",
+        "averageRuntime": 166.03507000505925,
+        "standardDeviation": 10.725353435208318
+      },
+      "annotated": {
+        "size": 4059,
+        "lines": 115,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 167.55936999917031,
+        "standardDeviation": 10.44409134845731
+      },
+      "transpiled": {
+        "size": 10383,
+        "lines": 129,
+        "output": "0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\n2\n4\n6\n8\n10\nh\ne\nl\nl\no\nEntering function test\n50\n",
+        "averageRuntime": 172.28856000602246,
+        "standardDeviation": 13.197168718683303
+      },
+      "compilable": {
+        "size": 333,
+        "lines": 11
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 12884.950800001621,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts\" --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrayGetter -> Dependencies: \narraySetter -> Dependencies: \narrayDoubleWay -> Dependencies: \narrayElementSetter -> Dependencies: \narrayElementPusher -> Dependencies: unshift, push\narrayElementDeleter -> Dependencies: shift, pop\narraySplice -> Dependencies: \nmapGetter -> Dependencies: \nmapSetter -> Dependencies: \nmapElementPusher -> Dependencies: set\nmapElementDeleter -> Dependencies: delete\nmapClear -> Dependencies: clear\nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \nbUnary -> Dependencies: \ntest -> Dependencies: \na -> Dependencies: \nmain -> Dependencies: test\n\nTrying to compile functions: test,a,main\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 10 parse error(s)\nERROR TS1012: Unexpected token.\n    :\n 14 │ let oi = void 0;\n    │               ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(14,19)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 21 │ for (i in arrayGetter()) {\n    │                       ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(21,27)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 24 │ for (i in mapGetter()) {\n    │                     ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(24,25)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 27 │ for (i in strGetter()) {\n    │                     ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(27,25)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 30 │ for (const ii in arrayGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(30,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 30 │ for (const ii in arrayGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(30,16)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 33 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(33,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 33 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(33,16)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 36 │ for (const ii in strGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(36,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 36 │ for (const ii in strGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(36,16)\r\n\r\nFAILURE 10 parse error(s)\r\n\nTrying to compile functions: test\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,a\nAS Compilation failed: 1 compile error(s)\nERROR AS100: Not implemented: Iterators\n   :\n 6 │ for (let c of testArray) {\n   │ ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,test,a,main\n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts\" --deleteIntermediateFiles --verbose\nFunction Dependencies:\narrayGetter -> Dependencies: \narraySetter -> Dependencies: \narrayDoubleWay -> Dependencies: \narrayElementSetter -> Dependencies: \narrayElementPusher -> Dependencies: unshift, push\narrayElementDeleter -> Dependencies: shift, pop\narraySplice -> Dependencies: \nmapGetter -> Dependencies: \nmapSetter -> Dependencies: \nmapElementPusher -> Dependencies: set\nmapElementDeleter -> Dependencies: delete\nmapClear -> Dependencies: clear\nstrGetter -> Dependencies: \nstrSetter -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nbGetter -> Dependencies: \nbSetter -> Dependencies: \nbUnary -> Dependencies: \ntest -> Dependencies: \na -> Dependencies: \nmain -> Dependencies: test\n\nTrying to compile functions: test,a,main\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary\nAS Compilation failed: 10 parse error(s)\nERROR TS1012: Unexpected token.\n    :\n 14 │ let oi = void 0;\n    │               ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(14,19)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 21 │ for (i in arrayGetter()) {\n    │                       ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(21,27)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 24 │ for (i in mapGetter()) {\n    │                     ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(24,25)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 27 │ for (i in strGetter()) {\n    │                     ~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(27,25)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 30 │ for (const ii in arrayGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(30,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 30 │ for (const ii in arrayGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(30,16)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 33 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(33,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 33 │ for (const ii in mapGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(33,16)\r\n\r\nERROR TS1155: 'const' declarations must be initialized.\n    :\n 36 │ for (const ii in strGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(36,16)\r\n\r\nERROR TS1005: ';' expected.\n    :\n 36 │ for (const ii in strGetter()) {\n    │            ~~\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(36,16)\r\n\r\nFAILURE 10 parse error(s)\r\n\nTrying to compile functions: test\nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,a\nAS Compilation failed: 1 compile error(s)\nERROR AS100: Not implemented: Iterators\n   :\n 6 │ for (let c of testArray) {\n   │ ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: arrayGetter,arraySetter,arrayDoubleWay,arrayElementSetter,arrayElementPusher,arrayElementDeleter,arraySplice,mapGetter,mapSetter,mapElementPusher,mapElementDeleter,mapClear,strGetter,strSetter,iGetter,iSetter,iUnary,bGetter,bSetter,bUnary,test,a,main\n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4146.132699996233,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts",
+    "transpilationError": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\ntest -> Dependencies: \na -> Dependencies: \n\nTrying to compile functions: test,a\nImportable Functions: \nAS Compilation failed: 1 parse error(s)\nERROR TS1012: Unexpected token.\n    :\n 14 │ let oi = void 0;\n    │               ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(14,19)\r\n\r\nFAILURE 1 parse error(s)\r\n\nTrying to compile functions: test\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR AS100: Not implemented: Iterators\n   :\n 6 │ for (let c of testArray) {\n   │ ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "transpilationSuccess": false,
+    "selectorOutput": "Command failed: ts-node selector.ts \"transpilejs\\examples\\custom\\my-examples\\forinof_annotated.ts\" --noIntegerCasts --noGeneratedMain --noGeneratedGettersAndSetters --deleteIntermediateFiles --verbose\nFunction Dependencies:\ntest -> Dependencies: \na -> Dependencies: \n\nTrying to compile functions: test,a\nImportable Functions: \nAS Compilation failed: 1 parse error(s)\nERROR TS1012: Unexpected token.\n    :\n 14 │ let oi = void 0;\n    │               ^\n    └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(14,19)\r\n\r\nFAILURE 1 parse error(s)\r\n\nTrying to compile functions: test\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR AS100: Not implemented: Iterators\n   :\n 6 │ for (let c of testArray) {\n   │ ~~~~~~~~~~~~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/forinof_output/forinof_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: \nImportable Functions: \n\nSelector Error: Unable to compile anything\n",
+    "selectorSuccess": false,
+    "runner": {
+      "success": true,
+      "ran": false,
+      "runs": 20
+    }
+  }
+}

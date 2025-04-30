@@ -1,0 +1,365 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 11754.607400000095,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nnum1Getter -> Dependencies: \nnum1Setter -> Dependencies: \nnum1Unary -> Dependencies: \nnum2Getter -> Dependencies: \nnum2Setter -> Dependencies: \nnum2Unary -> Dependencies: \nsumGetter -> Dependencies: \nsumSetter -> Dependencies: \nsumUnary -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nfiboGetter -> Dependencies: \nfiboSetter -> Dependencies: \nfiboUnary -> Dependencies: \narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: toString\nmain -> Dependencies: toString, getArrayL, mathThing\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 15 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nERROR TS2304: Cannot find name 'numSetter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,5)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │                ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,20)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 27 │ num2Setter(1);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(27,5)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 28 │ sumSetter(num1Unary(true, false));\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(28,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 29 │ iSetter(0);\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(29,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │      ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,10)\r\n\r\nERROR TS2304: Cannot find name 'iGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                  ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,34)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 31 │ sumSetter(num1Getter() + num2Getter());\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(31,9)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 32 │ num1Setter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(32,9)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 33 │ num2Setter(sumGetter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(33,9)\r\n\r\nERROR TS2304: Cannot find name 'iUnary'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                                           ~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,47)\r\n\r\nERROR TS2304: Cannot find name 'fiboSetter'.\n    :\n 35 │ fiboSetter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(35,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 36 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(36,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 37 │ arrSetter([0, 3, arrowGetter().length, 4.5]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(37,5)\r\n\r\nERROR TS2304: Cannot find name 'fiboGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                        ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,28)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                              ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,66)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,82)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'num1Unary'.\n    :\n 58 │ sumSetter(num1Unary(true, false));\n    │           ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(58,15)\r\n\r\nERROR TS2304: Cannot find name 'num1Getter'.\n    :\n 61 │ sumSetter(num1Getter() + num2Getter());\n    │           ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(61,19)\r\n\r\nERROR TS2304: Cannot find name 'sumGetter'.\n    :\n 63 │ num2Setter(sumGetter());\n    │            ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(63,20)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 15936.887300014496,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 27692.199800014496,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 869,
+        "lines": 34,
+        "output": "Fibo: 987, Array->4.5\n5\n5\n4945\n",
+        "averageRuntime": 173.70400999486446,
+        "standardDeviation": 15.289461810455927
+      },
+      "annotated": {
+        "size": 5030,
+        "lines": 158,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 173.934684997797,
+        "standardDeviation": 16.243010648658085
+      },
+      "transpiled": {
+        "size": 21369,
+        "lines": 144,
+        "output": "Fibo: 987.0, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5.0\nEntering function mathThing\n4945.0\n",
+        "averageRuntime": 192.3979149967432,
+        "standardDeviation": 9.577525537894367
+      },
+      "compilable": {
+        "size": 3182,
+        "lines": 76
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8674.491899996996,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nnum1Getter -> Dependencies: \nnum1Setter -> Dependencies: \nnum1Unary -> Dependencies: \nnum2Getter -> Dependencies: \nnum2Setter -> Dependencies: \nnum2Unary -> Dependencies: \nsumGetter -> Dependencies: \nsumSetter -> Dependencies: \nsumUnary -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nfiboGetter -> Dependencies: \nfiboSetter -> Dependencies: \nfiboUnary -> Dependencies: \narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: toString\n\nTrying to compile functions: f,getArrayL,mathThing,n\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 15 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13808.677899986506,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 22483.77079999447,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 869,
+        "lines": 34,
+        "output": "Fibo: 987, Array->4.5\n5\n5\n4945\n",
+        "averageRuntime": 189.7431500032544,
+        "standardDeviation": 30.61211904694499
+      },
+      "annotated": {
+        "size": 4936,
+        "lines": 155,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 219.29821500182152,
+        "standardDeviation": 24.39282295374576
+      },
+      "transpiled": {
+        "size": 13386,
+        "lines": 159,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 208.41033000051976,
+        "standardDeviation": 31.33632890543091
+      },
+      "compilable": {
+        "size": 847,
+        "lines": 25
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8852.48939999938,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: toString\nmain -> Dependencies: toString, getArrayL, mathThing\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: \nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'num2'.\n    :\n 15 │ const num3 = a + num2;\n    │                  ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 26 │ num = 14, num1 = 0;\n    │ ~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,5)\r\n\r\nERROR TS2304: Cannot find name 'num1'.\n    :\n 26 │ num = 14, num1 = 0;\n    │           ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,15)\r\n\r\nERROR TS2304: Cannot find name 'num2'.\n    :\n 27 │ num2 = 1;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(27,5)\r\n\r\nERROR TS2304: Cannot find name 'sum'.\n    :\n 28 │ sum = num1++;\n    │ ~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(28,5)\r\n\r\nERROR TS2304: Cannot find name 'i'.\n    :\n 29 │ i = 0;\n    │ ~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(29,5)\r\n\r\nERROR TS2304: Cannot find name 'i'.\n    :\n 30 │ for (i = 0; i < num; i++) {\n    │      ~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,10)\r\n\r\nERROR TS2304: Cannot find name 'i'.\n    :\n 30 │ for (i = 0; i < num; i++) {\n    │             ~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,17)\r\n\r\nERROR TS2304: Cannot find name 'num'.\n    :\n 30 │ for (i = 0; i < num; i++) {\n    │                 ~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,21)\r\n\r\nERROR TS2304: Cannot find name 'sum'.\n    :\n 31 │ sum = num1 + num2;\n    │ ~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(31,9)\r\n\r\nERROR TS2304: Cannot find name 'num1'.\n    :\n 32 │ num1 = num2;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(32,9)\r\n\r\nERROR TS2304: Cannot find name 'num2'.\n    :\n 33 │ num2 = sum;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(33,9)\r\n\r\nERROR TS2304: Cannot find name 'i'.\n    :\n 30 │ for (i = 0; i < num; i++) {\n    │                      ~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,26)\r\n\r\nERROR TS2304: Cannot find name 'fibo'.\n    :\n 35 │ fibo = num2;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(35,5)\r\n\r\nERROR TS2304: Cannot find name 'arrow'.\n    :\n 36 │ arrow = \"->\";\n    │ ~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(36,5)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n    :\n 37 │ arr = [0, 3, arrow.length, 4.5];\n    │ ~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(37,5)\r\n\r\nERROR TS2304: Cannot find name 'fibo'.\n    :\n 38 │ console.log(\"Fibo: \" + fibo.toString() + \", Array\" + arrow + arr[3].toString());\n    │                        ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,28)\r\n\r\nERROR TS2304: Cannot find name 'arrow'.\n    :\n 38 │ console.log(\"Fibo: \" + fibo.toString() + \", Array\" + arrow + arr[3].toString());\n    │                                                      ~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,58)\r\n\r\nERROR TS2304: Cannot find name 'arr'.\n    :\n 38 │ console.log(\"Fibo: \" + fibo.toString() + \", Array\" + arrow + arr[3].toString());\n    │                                                              ~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,66)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,n\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13564.466499984264,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 22417.678299993277,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 869,
+        "lines": 34,
+        "output": "Fibo: 987, Array->4.5\n5\n5\n4945\n",
+        "averageRuntime": 169.55596499592065,
+        "standardDeviation": 12.884796939748025
+      },
+      "annotated": {
+        "size": 1340,
+        "lines": 48,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 169.78530499786137,
+        "standardDeviation": 18.962211436486793
+      },
+      "transpiled": {
+        "size": 12619,
+        "lines": 172,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 161.93531000316142,
+        "standardDeviation": 8.706337526367165
+      },
+      "compilable": {
+        "size": 526,
+        "lines": 18
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8253.991900026798,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nnum1Getter -> Dependencies: \nnum1Setter -> Dependencies: \nnum1Unary -> Dependencies: \nnum2Getter -> Dependencies: \nnum2Setter -> Dependencies: \nnum2Unary -> Dependencies: \nsumGetter -> Dependencies: \nsumSetter -> Dependencies: \nsumUnary -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nfiboGetter -> Dependencies: \nfiboSetter -> Dependencies: \nfiboUnary -> Dependencies: \narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: toString\nmain -> Dependencies: toString, getArrayL, mathThing\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 15 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nERROR TS2304: Cannot find name 'numSetter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,5)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │                ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,20)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 27 │ num2Setter(1);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(27,5)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 28 │ sumSetter(num1Unary(true, false));\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(28,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 29 │ iSetter(0);\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(29,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │      ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,10)\r\n\r\nERROR TS2304: Cannot find name 'iGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                  ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,34)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 31 │ sumSetter(num1Getter() + num2Getter());\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(31,9)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 32 │ num1Setter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(32,9)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 33 │ num2Setter(sumGetter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(33,9)\r\n\r\nERROR TS2304: Cannot find name 'iUnary'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                                           ~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,47)\r\n\r\nERROR TS2304: Cannot find name 'fiboSetter'.\n    :\n 35 │ fiboSetter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(35,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 36 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(36,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 37 │ arrSetter([0, 3, arrowGetter().length, 4.5]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(37,5)\r\n\r\nERROR TS2304: Cannot find name 'fiboGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                        ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,28)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                              ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,66)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,82)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'num1Unary'.\n    :\n 58 │ sumSetter(num1Unary(true, false));\n    │           ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(58,15)\r\n\r\nERROR TS2304: Cannot find name 'num1Getter'.\n    :\n 61 │ sumSetter(num1Getter() + num2Getter());\n    │           ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(61,19)\r\n\r\nERROR TS2304: Cannot find name 'sumGetter'.\n    :\n 63 │ num2Setter(sumGetter());\n    │            ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(63,20)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 19421.47429996729,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 27677.435199975967,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 869,
+        "lines": 34,
+        "output": "Fibo: 987, Array->4.5\n5\n5\n4945\n",
+        "averageRuntime": 196.1451299905777,
+        "standardDeviation": 27.20640730568407
+      },
+      "annotated": {
+        "size": 5030,
+        "lines": 158,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 198.1992750018835,
+        "standardDeviation": 41.531391323336216
+      },
+      "transpiled": {
+        "size": 21369,
+        "lines": 144,
+        "output": "Fibo: 987.0, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5.0\nEntering function mathThing\n4945.0\n",
+        "averageRuntime": 187.1534049987793,
+        "standardDeviation": 13.366832383820936
+      },
+      "compilable": {
+        "size": 3182,
+        "lines": 76
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8879.464600026608,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nnum1Getter -> Dependencies: \nnum1Setter -> Dependencies: \nnum1Unary -> Dependencies: \nnum2Getter -> Dependencies: \nnum2Setter -> Dependencies: \nnum2Unary -> Dependencies: \nsumGetter -> Dependencies: \nsumSetter -> Dependencies: \nsumUnary -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nfiboGetter -> Dependencies: \nfiboSetter -> Dependencies: \nfiboUnary -> Dependencies: \narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: toString\nmain -> Dependencies: toString, getArrayL, mathThing\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 19 compile error(s)\nERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 15 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nERROR TS2304: Cannot find name 'numSetter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,5)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │                ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,20)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 27 │ num2Setter(1);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(27,5)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 28 │ sumSetter(num1Unary(true, false));\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(28,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 29 │ iSetter(0);\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(29,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │      ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,10)\r\n\r\nERROR TS2304: Cannot find name 'iGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                  ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,34)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 31 │ sumSetter(num1Getter() + num2Getter());\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(31,9)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 32 │ num1Setter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(32,9)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 33 │ num2Setter(sumGetter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(33,9)\r\n\r\nERROR TS2304: Cannot find name 'iUnary'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                                           ~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,47)\r\n\r\nERROR TS2304: Cannot find name 'fiboSetter'.\n    :\n 35 │ fiboSetter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(35,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 36 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(36,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 37 │ arrSetter([0, 3, arrowGetter().length, 4.5]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(37,5)\r\n\r\nERROR TS2304: Cannot find name 'fiboGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                        ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,28)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                              ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,66)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,82)\r\n\r\nFAILURE 19 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 3 compile error(s)\nERROR TS2304: Cannot find name 'num1Unary'.\n    :\n 58 │ sumSetter(num1Unary(true, false));\n    │           ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(58,15)\r\n\r\nERROR TS2304: Cannot find name 'num1Getter'.\n    :\n 61 │ sumSetter(num1Getter() + num2Getter());\n    │           ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(61,19)\r\n\r\nERROR TS2304: Cannot find name 'sumGetter'.\n    :\n 63 │ num2Setter(sumGetter());\n    │            ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(63,20)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16602.585500001907,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 25482.8492000103,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 869,
+        "lines": 34,
+        "output": "Fibo: 987, Array->4.5\n5\n5\n4945\n",
+        "averageRuntime": 162.67630999982356,
+        "standardDeviation": 12.259291963138125
+      },
+      "annotated": {
+        "size": 5030,
+        "lines": 158,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 158.50885999798774,
+        "standardDeviation": 9.471250620343769
+      },
+      "transpiled": {
+        "size": 21369,
+        "lines": 144,
+        "output": "Fibo: 987.0, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5.0\nEntering function mathThing\n4945.0\n",
+        "averageRuntime": 173.94617501199247,
+        "standardDeviation": 8.34163299059489
+      },
+      "compilable": {
+        "size": 3182,
+        "lines": 76
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 5626.472900003195,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nnumGetter -> Dependencies: \nnumSetter -> Dependencies: \nnumUnary -> Dependencies: \nnum1Getter -> Dependencies: \nnum1Setter -> Dependencies: \nnum1Unary -> Dependencies: \nnum2Getter -> Dependencies: \nnum2Setter -> Dependencies: \nnum2Unary -> Dependencies: \nsumGetter -> Dependencies: \nsumSetter -> Dependencies: \nsumUnary -> Dependencies: \niGetter -> Dependencies: \niSetter -> Dependencies: \niUnary -> Dependencies: \nfiboGetter -> Dependencies: \nfiboSetter -> Dependencies: \nfiboUnary -> Dependencies: \narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \narrGetter -> Dependencies: \narrSetter -> Dependencies: \narrDoubleWay -> Dependencies: \narrElementSetter -> Dependencies: \narrElementPusher -> Dependencies: unshift, push\narrElementDeleter -> Dependencies: shift, pop\narrSplice -> Dependencies: \nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: \nmain -> Dependencies: toString, getArrayL, mathThing\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 22 compile error(s)\nERROR TS2322: Type 'i32' is not assignable to type '~lib/string/String'.\n   :\n 4 │ console.log(5);\n   │             ~\n   └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(4,17)\r\n\r\nERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 15 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nERROR TS2304: Cannot find name 'numSetter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,5)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 26 │ numSetter(14), num1Setter(0);\n    │                ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(26,20)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 27 │ num2Setter(1);\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(27,5)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 28 │ sumSetter(num1Unary(true, false));\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(28,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 29 │ iSetter(0);\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(29,5)\r\n\r\nERROR TS2304: Cannot find name 'iSetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │      ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,10)\r\n\r\nERROR TS2304: Cannot find name 'iGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                  ~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,22)\r\n\r\nERROR TS2304: Cannot find name 'numGetter'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,34)\r\n\r\nERROR TS2304: Cannot find name 'sumSetter'.\n    :\n 31 │ sumSetter(num1Getter() + num2Getter());\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(31,9)\r\n\r\nERROR TS2304: Cannot find name 'num1Setter'.\n    :\n 32 │ num1Setter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(32,9)\r\n\r\nERROR TS2304: Cannot find name 'num2Setter'.\n    :\n 33 │ num2Setter(sumGetter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(33,9)\r\n\r\nERROR TS2304: Cannot find name 'iUnary'.\n    :\n 30 │ for (iSetter(0); iGetter() < numGetter(); iUnary(true, false)) {\n    │                                           ~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(30,47)\r\n\r\nERROR TS2304: Cannot find name 'fiboSetter'.\n    :\n 35 │ fiboSetter(num2Getter());\n    │ ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(35,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 36 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(36,5)\r\n\r\nERROR TS2304: Cannot find name 'arrSetter'.\n    :\n 37 │ arrSetter([0, 3, arrowGetter().length, 4.5]);\n    │ ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(37,5)\r\n\r\nERROR TS2304: Cannot find name 'fiboGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                        ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,28)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                              ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,66)\r\n\r\nERROR TS2304: Cannot find name 'arrGetter'.\n    :\n 38 │ console.log(\"Fibo: \" + fiboGetter().toString() + \", Array\" + arrowGetter() + arrGetter()[3].toString());\n    │                                                                              ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(38,82)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 39 │ console.log(getArrayL(\"hello\"));\n    │             ~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(39,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 40 │ console.log(mathThing(2, 5));\n    │             ~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(40,17)\r\n\r\nFAILURE 22 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 6 compile error(s)\nERROR TS2322: Type 'i32' is not assignable to type '~lib/string/String'.\n    :\n 34 │ console.log(5);\n    │             ~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(34,17)\r\n\r\nERROR TS2304: Cannot find name 'num1Unary'.\n    :\n 58 │ sumSetter(num1Unary(true, false));\n    │           ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(58,15)\r\n\r\nERROR TS2304: Cannot find name 'num1Getter'.\n    :\n 61 │ sumSetter(num1Getter() + num2Getter());\n    │           ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(61,19)\r\n\r\nERROR TS2304: Cannot find name 'sumGetter'.\n    :\n 63 │ num2Setter(sumGetter());\n    │            ~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(63,20)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 69 │ console.log(getArrayL(\"hello\"));\n    │             ~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(69,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 70 │ console.log(mathThing(2, 5));\n    │             ~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(70,17)\r\n\r\nFAILURE 6 compile error(s)\r\n\nTrying to compile functions: f,getArrayL,mathThing,n,main\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice\nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type 'i32' is not assignable to type '~lib/string/String'.\n    :\n 40 │ console.log(5);\n    │             ~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(40,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 75 │ console.log(getArrayL(\"hello\"));\n    │             ~~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(75,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 76 │ console.log(mathThing(2, 5));\n    │             ~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(76,17)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: getArrayL,mathThing,n\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,f\nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'f'.\n   :\n 4 │ const l = arg.length + f();\n   │                        ~\n   └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(4,28)\r\n\r\nERROR TS2304: Cannot find name 'num2Getter'.\n    :\n 10 │ const num3 = a + num2Getter();\n    │                  ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(10,22)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: getArrayL,mathThing,n\nImportable Functions: numGetter,numSetter,numUnary,num1Getter,num1Setter,num1Unary,num2Getter,num2Setter,num2Unary,sumGetter,sumSetter,sumUnary,iGetter,iSetter,iUnary,fiboGetter,fiboSetter,fiboUnary,arrowGetter,arrowSetter,arrGetter,arrSetter,arrDoubleWay,arrElementSetter,arrElementPusher,arrElementDeleter,arrSplice,f\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12604.943599998951,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 18232.13529998064,
+    "transpilationSuccess": true
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4173.886000007391,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nf -> Dependencies: \ngetArrayL -> Dependencies: f\nmathThing -> Dependencies: \nn -> Dependencies: \n\nTrying to compile functions: f,getArrayL,mathThing,n\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2322: Type 'i32' is not assignable to type '~lib/string/String'.\n   :\n 4 │ console.log(5);\n   │             ~\n   └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(4,17)\r\n\r\nERROR TS2304: Cannot find name 'num2'.\n    :\n 15 │ const num3 = a + num2;\n    │                  ~~~~\n    └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(15,22)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: getArrayL,n\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'f'.\n   :\n 4 │ const l = arg.length + f();\n   │                        ~\n   └─ in ../examples/custom/my-examples/functionless_output/functionless_compilable.ts(4,28)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: n\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11068.89359998703,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functionless_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functionless_output\\functionless_compilable.ts",
+    "transpilationTime": 15243.342299997807,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 869,
+        "lines": 34,
+        "output": "Fibo: 987, Array->4.5\n5\n5\n4945\n",
+        "averageRuntime": 155.94061000198127,
+        "standardDeviation": 11.47466244492874
+      },
+      "annotated": {
+        "size": 1129,
+        "lines": 38,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 148.4438950046897,
+        "standardDeviation": 20.820762696162447
+      },
+      "transpiled": {
+        "size": 5444,
+        "lines": 171,
+        "output": "Fibo: 987, Array->4.5\nEntering function getArrayL\nEntering function f\n5\n5\nEntering function mathThing\n4945\n",
+        "averageRuntime": 146.89539000242948,
+        "standardDeviation": 9.037615473579166
+      },
+      "compilable": {
+        "size": 203,
+        "lines": 7
+      }
+    }
+  }
+}

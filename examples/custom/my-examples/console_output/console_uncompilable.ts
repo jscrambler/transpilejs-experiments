@@ -1,0 +1,22 @@
+
+const num: number = 42;
+const str: string = "Hello, World!";
+const arr: number[] = [1, 2, 3];
+const func: (n: number) => number = (n): number => n * 2;
+console.log((num).toString());
+console.log(str);
+console.log((arr).toString());
+console.log((func(10)).toString());
+console.log((a(5)).toString());
+console.log((8 * num + 6).toString());
+console.log((a(8) * a(num) + 6 / 10).toString());
+console.log((arr[1]).toString());
+console.log(`The number is ${num}`);
+console.assert(num === 42, "Number is not 42");
+console.assert(num < 0, "Number is not negative");
+console.assert(arr.length === 3, "Array length is not 3");
+console.assert(typeof func === "function", "Func is not a function");
+console.warn((num).toString());
+console.error(str);
+console.info("important information");
+console.debug((arr).toString());

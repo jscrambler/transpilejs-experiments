@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 11262.141300022602,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \naUnary -> Dependencies: \nfibonacci -> Dependencies: \nmain -> Dependencies: fibonacci\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n    :\n 16 │ aSetter(fibonacci(4, \"pedro\"));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/fibonacci_output/fibonacci_compilable.ts(16,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 18546.313799977303,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 29809.710400044918,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 171.32741000652314,
+        "standardDeviation": 11.133295005907566
+      },
+      "annotated": {
+        "size": 816,
+        "lines": 35,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 185.0318299949169,
+        "standardDeviation": 17.53151873636674
+      },
+      "transpiled": {
+        "size": 3128,
+        "lines": 19,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 185.82094499766828,
+        "standardDeviation": 25.71416192920269
+      },
+      "compilable": {
+        "size": 528,
+        "lines": 19
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9498.438099980354,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \naUnary -> Dependencies: \nfibonacci -> Dependencies: \n\nTrying to compile functions: fibonacci\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14338.314999997616,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 23837.456299990416,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 213.02192499637604,
+        "standardDeviation": 30.806615636976908
+      },
+      "annotated": {
+        "size": 776,
+        "lines": 33,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 210.830590005219,
+        "standardDeviation": 36.73455863058638
+      },
+      "transpiled": {
+        "size": 7145,
+        "lines": 21,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 216.01552000045777,
+        "standardDeviation": 24.089722519487808
+      },
+      "compilable": {
+        "size": 341,
+        "lines": 13
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8813.530499994755,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibonacci -> Dependencies: \nmain -> Dependencies: fibonacci\n\nTrying to compile functions: fibonacci,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'a'.\n    :\n 16 │ a = fibonacci(4, \"pedro\");\n    │ ~\n    └─ in ../examples/custom/my-examples/fibonacci_output/fibonacci_compilable.ts(16,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: fibonacci\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13800.61899998784,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 22614.934799999,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 173.6697200000286,
+        "standardDeviation": 19.267586099429685
+      },
+      "annotated": {
+        "size": 443,
+        "lines": 19,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 177.2757299989462,
+        "standardDeviation": 18.990069873755203
+      },
+      "transpiled": {
+        "size": 7132,
+        "lines": 24,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 176.18516499996184,
+        "standardDeviation": 16.149179929120884
+      },
+      "compilable": {
+        "size": 341,
+        "lines": 13
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 5827.8125,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \naUnary -> Dependencies: \nfibonacci -> Dependencies: \nmain -> Dependencies: fibonacci\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n    :\n 16 │ aSetter(fibonacci(4, \"pedro\"));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/fibonacci_output/fibonacci_compilable.ts(16,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11126.3817999959,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 16954.95260000229,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 174.54204501211643,
+        "standardDeviation": 20.790369831906627
+      },
+      "annotated": {
+        "size": 816,
+        "lines": 35,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 177.9498050004244,
+        "standardDeviation": 19.182087870034586
+      },
+      "transpiled": {
+        "size": 3128,
+        "lines": 19,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 253.63967500329017,
+        "standardDeviation": 42.587840474646335
+      },
+      "compilable": {
+        "size": 528,
+        "lines": 19
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7170.039499998093,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \naUnary -> Dependencies: \nfibonacci -> Dependencies: \nmain -> Dependencies: fibonacci\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n    :\n 16 │ aSetter(fibonacci(4, \"pedro\"));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/fibonacci_output/fibonacci_compilable.ts(16,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16971.226300001144,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 24142.021499991417,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 158.928129991889,
+        "standardDeviation": 9.283924842946004
+      },
+      "annotated": {
+        "size": 816,
+        "lines": 35,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 161.65279999673368,
+        "standardDeviation": 6.780506373635252
+      },
+      "transpiled": {
+        "size": 3128,
+        "lines": 19,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 173.62376500070096,
+        "standardDeviation": 10.44146480249047
+      },
+      "compilable": {
+        "size": 528,
+        "lines": 19
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 14073.77739995718,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\naGetter -> Dependencies: \naSetter -> Dependencies: \naUnary -> Dependencies: \nfibonacci -> Dependencies: \nmain -> Dependencies: fibonacci\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'aSetter'.\n    :\n 16 │ aSetter(fibonacci(4, \"pedro\"));\n    │ ~~~~~~~\n    └─ in ../examples/custom/my-examples/fibonacci_output/fibonacci_compilable.ts(16,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: fibonacci,main\nImportable Functions: aGetter,aSetter,aUnary\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 20632.307300031185,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 34706.99699997902,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 176.37206000089645,
+        "standardDeviation": 17.409603621377656
+      },
+      "annotated": {
+        "size": 816,
+        "lines": 35,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 181.51692000329496,
+        "standardDeviation": 17.021267903411797
+      },
+      "transpiled": {
+        "size": 3128,
+        "lines": 19,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 208.15199500024318,
+        "standardDeviation": 22.486492400184567
+      },
+      "compilable": {
+        "size": 528,
+        "lines": 19
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4194.113499999046,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfibonacci -> Dependencies: \n\nTrying to compile functions: fibonacci\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 7443.777500003576,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\fibonacci_output\\fibonacci_compilable.ts",
+    "transpilationTime": 11638.666999995708,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 308,
+        "lines": 15,
+        "output": "pedro\nferreira\n",
+        "averageRuntime": 151.09655499756337,
+        "standardDeviation": 6.053598684273458
+      },
+      "annotated": {
+        "size": 401,
+        "lines": 16,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 151.40727499872446,
+        "standardDeviation": 13.87330159674707
+      },
+      "transpiled": {
+        "size": 7096,
+        "lines": 21,
+        "output": "Entering function fibonacci\npedro\nEntering function fibonacci\nferreira\n",
+        "averageRuntime": 163.30992500185965,
+        "standardDeviation": 8.190796361339363
+      },
+      "compilable": {
+        "size": 341,
+        "lines": 13
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 11913.03710001707,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \nmain -> Dependencies: cant\n\nTrying to compile functions: cant,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'cant'.\n   :\n 6 │ cant();\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: main\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 15928.252200007439,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 27842.007400035858,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 182.49429498910905,
+        "standardDeviation": 13.050626611574558
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 13,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 172.43959499597548,
+        "standardDeviation": 16.692821008959484
+      },
+      "transpiled": {
+        "size": 2247,
+        "lines": 11,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 188.07583000063897,
+        "standardDeviation": 12.532636235201604
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8883.73480001092,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \n\nTrying to compile functions: cant\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12673.39469999075,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 21557.802100002766,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 201.44700000286102,
+        "standardDeviation": 50.168742645549216
+      },
+      "annotated": {
+        "size": 217,
+        "lines": 10,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 205.5423350021243,
+        "standardDeviation": 23.52173402775743
+      },
+      "transpiled": {
+        "size": 2215,
+        "lines": 8,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 216.99677999913692,
+        "standardDeviation": 27.6929065433524
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7910.65989997983,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \nmain -> Dependencies: cant\n\nTrying to compile functions: cant,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'cant'.\n   :\n 6 │ cant();\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14775.30529999733,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 22686.590899974108,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 171.78411500006914,
+        "standardDeviation": 13.295343752246689
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 13,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 170.83357499837877,
+        "standardDeviation": 18.75271432317778
+      },
+      "transpiled": {
+        "size": 2247,
+        "lines": 11,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 176.69273000657557,
+        "standardDeviation": 14.037389492180932
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 5602.67560005188,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \nmain -> Dependencies: cant\n\nTrying to compile functions: cant,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'cant'.\n   :\n 6 │ cant();\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: main\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14656.505899965763,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 20259.82530003786,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 165.83860999643804,
+        "standardDeviation": 12.915436802916211
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 13,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 227.4058299869299,
+        "standardDeviation": 38.751174520247574
+      },
+      "transpiled": {
+        "size": 2247,
+        "lines": 11,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 189.27278498113157,
+        "standardDeviation": 20.131634893474462
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 8732.03719997406,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \nmain -> Dependencies: cant\n\nTrying to compile functions: cant,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'cant'.\n   :\n 6 │ cant();\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: main\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14355.338200032711,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 23088.717700004578,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 162.76917000412942,
+        "standardDeviation": 11.067487491285744
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 13,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 169.96216999590396,
+        "standardDeviation": 23.45562607170748
+      },
+      "transpiled": {
+        "size": 2247,
+        "lines": 11,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 168.1632949978113,
+        "standardDeviation": 10.70535663414121
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 12947.535899996758,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \nmain -> Dependencies: cant\n\nTrying to compile functions: cant,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can,main\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'cant'.\n   :\n 6 │ cant();\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(6,5)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: main\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16926.285700023174,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 29874.498600006104,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 182.56464500129223,
+        "standardDeviation": 14.580004059160386
+      },
+      "annotated": {
+        "size": 255,
+        "lines": 13,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 180.0110150039196,
+        "standardDeviation": 17.28226809179152
+      },
+      "transpiled": {
+        "size": 2247,
+        "lines": 11,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 184.41918498575689,
+        "standardDeviation": 11.556291155984635
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\functional.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4240.619000017643,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncant -> Dependencies: can\ncan -> Dependencies: \n\nTrying to compile functions: cant\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2322: Type '~lib/string/String' is not assignable to type 'i32'.\n   :\n 8 │ const arr = [1, \"a\"];\n   │                 ~~~\n   └─ in ../examples/custom/my-examples/functional_output/functional_compilable.ts(8,21)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: can\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 8055.2757999897,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\functional_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\functional_output\\functional_compilable.ts",
+    "transpilationTime": 12296.390900015831,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 171,
+        "lines": 9,
+        "output": "Can't do this\nCan do this\n",
+        "averageRuntime": 152.57114499807358,
+        "standardDeviation": 10.424840182749408
+      },
+      "annotated": {
+        "size": 217,
+        "lines": 10,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 151.43987500071526,
+        "standardDeviation": 11.671388676162412
+      },
+      "transpiled": {
+        "size": 2215,
+        "lines": 8,
+        "output": "Entering function cant\nCan't do this\nCan do this\n",
+        "averageRuntime": 161.08495499938726,
+        "standardDeviation": 5.972476636169402
+      },
+      "compilable": {
+        "size": 65,
+        "lines": 3
+      }
+    }
+  }
+}

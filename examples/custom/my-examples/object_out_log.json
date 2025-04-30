@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9507.472899973392,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncarGetter -> Dependencies: \ncarSetter -> Dependencies: \nfutureWork -> Dependencies: \nmain -> Dependencies: getModel, futureWork\n\nTrying to compile functions: futureWork,main\nImportable Functions: carGetter,carSetter\nAS Compilation failed: 3 parse error(s)\nERROR TS1110: Type expected.\n   :\n 8 │ type;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(8,9)\r\n\r\nERROR TS1110: Type expected.\n   :\n 9 │ model;\n   │ ~~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(9,9)\r\n\r\nERROR TS1110: Type expected.\n    :\n 10 │ year;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(10,9)\r\n\r\nFAILURE 3 parse error(s)\r\n\nTrying to compile functions: futureWork\nImportable Functions: carGetter,carSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12183.126600027084,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 21691.34249997139,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 176.5077850073576,
+        "standardDeviation": 11.032297741401585
+      },
+      "annotated": {
+        "size": 673,
+        "lines": 27,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 168.5809599906206,
+        "standardDeviation": 18.334883334090236
+      },
+      "transpiled": {
+        "size": 2863,
+        "lines": 23,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 180.31095000505448,
+        "standardDeviation": 12.95989470884691
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6832.1297000050545,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncarGetter -> Dependencies: \ncarSetter -> Dependencies: \nfutureWork -> Dependencies: \n\nTrying to compile functions: futureWork\nImportable Functions: carGetter,carSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 9692.215899974108,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 16524.932899981737,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 184.646939997375,
+        "standardDeviation": 25.950338363355755
+      },
+      "annotated": {
+        "size": 571,
+        "lines": 24,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 173.6665700018406,
+        "standardDeviation": 15.91407066926529
+      },
+      "transpiled": {
+        "size": 2775,
+        "lines": 20,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 216.9779899984598,
+        "standardDeviation": 24.873960516079993
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9299.834700018167,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfutureWork -> Dependencies: \nmain -> Dependencies: getModel, futureWork\n\nTrying to compile functions: futureWork,main\nImportable Functions: \nAS Compilation failed: 3 parse error(s)\nERROR TS1110: Type expected.\n   :\n 8 │ type;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(8,9)\r\n\r\nERROR TS1110: Type expected.\n   :\n 9 │ model;\n   │ ~~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(9,9)\r\n\r\nERROR TS1110: Type expected.\n    :\n 10 │ year;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(10,9)\r\n\r\nFAILURE 3 parse error(s)\r\n\nTrying to compile functions: futureWork\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 15675.49019998312,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 24976.50480002165,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 154.34230999946595,
+        "standardDeviation": 8.818554983950543
+      },
+      "annotated": {
+        "size": 564,
+        "lines": 25,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 154.56757499873638,
+        "standardDeviation": 10.811833171571614
+      },
+      "transpiled": {
+        "size": 2798,
+        "lines": 23,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 166.9199450030923,
+        "standardDeviation": 14.776256156585575
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7358.996399998665,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncarGetter -> Dependencies: \ncarSetter -> Dependencies: \nfutureWork -> Dependencies: \nmain -> Dependencies: getModel, futureWork\n\nTrying to compile functions: futureWork,main\nImportable Functions: carGetter,carSetter\nAS Compilation failed: 3 parse error(s)\nERROR TS1110: Type expected.\n   :\n 8 │ type;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(8,9)\r\n\r\nERROR TS1110: Type expected.\n   :\n 9 │ model;\n   │ ~~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(9,9)\r\n\r\nERROR TS1110: Type expected.\n    :\n 10 │ year;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(10,9)\r\n\r\nFAILURE 3 parse error(s)\r\n\nTrying to compile functions: futureWork\nImportable Functions: carGetter,carSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 11871.614600002766,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 19231.18630003929,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 166.2432700097561,
+        "standardDeviation": 22.7635850793116
+      },
+      "annotated": {
+        "size": 673,
+        "lines": 27,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 169.38124500215054,
+        "standardDeviation": 15.995136162016857
+      },
+      "transpiled": {
+        "size": 2863,
+        "lines": 23,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 217.0135149925947,
+        "standardDeviation": 22.21873448625838
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6781.142299950123,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncarGetter -> Dependencies: \ncarSetter -> Dependencies: \nfutureWork -> Dependencies: \nmain -> Dependencies: getModel, futureWork\n\nTrying to compile functions: futureWork,main\nImportable Functions: carGetter,carSetter\nAS Compilation failed: 3 parse error(s)\nERROR TS1110: Type expected.\n   :\n 8 │ type;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(8,9)\r\n\r\nERROR TS1110: Type expected.\n   :\n 9 │ model;\n   │ ~~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(9,9)\r\n\r\nERROR TS1110: Type expected.\n    :\n 10 │ year;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(10,9)\r\n\r\nFAILURE 3 parse error(s)\r\n\nTrying to compile functions: futureWork\nImportable Functions: carGetter,carSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 10507.735200047493,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 17289.41679996252,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 177.05245000123978,
+        "standardDeviation": 20.95384400973345
+      },
+      "annotated": {
+        "size": 673,
+        "lines": 27,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 160.3915399938822,
+        "standardDeviation": 5.888136182736127
+      },
+      "transpiled": {
+        "size": 2863,
+        "lines": 23,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 175.46434500217438,
+        "standardDeviation": 12.081341782880116
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7049.921600043774,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\ncarGetter -> Dependencies: \ncarSetter -> Dependencies: \nfutureWork -> Dependencies: \nmain -> Dependencies: getModel, futureWork\n\nTrying to compile functions: futureWork,main\nImportable Functions: carGetter,carSetter\nAS Compilation failed: 3 parse error(s)\nERROR TS1110: Type expected.\n   :\n 8 │ type;\n   │ ~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(8,9)\r\n\r\nERROR TS1110: Type expected.\n   :\n 9 │ model;\n   │ ~~~~~\n   └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(9,9)\r\n\r\nERROR TS1110: Type expected.\n    :\n 10 │ year;\n    │ ~~~~\n    └─ in ../examples/custom/my-examples/object_output/object_compilable.ts(10,9)\r\n\r\nFAILURE 3 parse error(s)\r\n\nTrying to compile functions: futureWork\nImportable Functions: carGetter,carSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 12178.036599993706,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 19228.428499996662,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 181.59544000029564,
+        "standardDeviation": 16.32190428858997
+      },
+      "annotated": {
+        "size": 660,
+        "lines": 27,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 186.7869649976492,
+        "standardDeviation": 11.71874056223681
+      },
+      "transpiled": {
+        "size": 2850,
+        "lines": 23,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 197.11072999238968,
+        "standardDeviation": 20.27302070171661
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\object.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4383.344099998474,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\object_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nfutureWork -> Dependencies: \n\nTrying to compile functions: futureWork\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 7044.459699988365,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\object_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\object_output\\object_compilable.ts",
+    "transpilationTime": 11428.354399979115,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 411,
+        "lines": 19,
+        "output": "Objects aren't supported yet!\n500\n",
+        "averageRuntime": 145.0425700008869,
+        "standardDeviation": 6.931306899346301
+      },
+      "annotated": {
+        "size": 446,
+        "lines": 21,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 148.54959500283002,
+        "standardDeviation": 13.886545611322722
+      },
+      "transpiled": {
+        "size": 2692,
+        "lines": 19,
+        "output": "Entering function futureWork\nObjects aren't supported yet!\n500\n",
+        "averageRuntime": 157.6096549987793,
+        "standardDeviation": 7.905903419544585
+      },
+      "compilable": {
+        "size": 139,
+        "lines": 4
+      }
+    }
+  }
+}

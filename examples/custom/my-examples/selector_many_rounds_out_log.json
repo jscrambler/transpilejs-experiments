@@ -1,0 +1,395 @@
+{
+  "latestSettings": "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles",
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 9570.077499985695,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\nmain -> Dependencies: fibo_ex, toString, getArray, printStringgood, printString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 33 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(33,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 30 │ return arg + \" \" + arrowGetter() + \" \" + arg.length.toString();\n    │                    ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 14179.647899985313,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 23750.305599987507,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 192.23216499984264,
+        "standardDeviation": 23.414887861207326
+      },
+      "annotated": {
+        "size": 1297,
+        "lines": 41,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 170.95523000061513,
+        "standardDeviation": 12.588881388828877
+      },
+      "transpiled": {
+        "size": 14957,
+        "lines": 5,
+        "output": "Entering function fibo_ex\n8.0\nEntering function getArray\nEntering function printStringgood\n99.0\n5.0\nEntering function printStringgood\n99.0\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 191.38023000359536,
+        "standardDeviation": 12.702607145383714
+      },
+      "compilable": {
+        "size": 1376,
+        "lines": 41
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6680.690299987793,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 30 │ return arg + \" \" + arrowGetter() + \" \" + arg.length.toString();\n    │                    ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 19906.830199986696,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 26588.26639997959,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 157.9652950003743,
+        "standardDeviation": 17.06240339231645
+      },
+      "annotated": {
+        "size": 1243,
+        "lines": 38,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 173.02550500333308,
+        "standardDeviation": 22.102397319151738
+      },
+      "transpiled": {
+        "size": 15447,
+        "lines": 10,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99.0\n5\nEntering function printStringgood\n99.0\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 215.29702000170946,
+        "standardDeviation": 18.312812296383136
+      },
+      "compilable": {
+        "size": 1066,
+        "lines": 32
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7493.057400017977,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\nmain -> Dependencies: fibo_ex, toString, getArray, printStringgood, printString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'arrow'.\n    :\n 33 │ arrow = \"->\";\n    │ ~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(33,5)\r\n\r\nERROR TS2304: Cannot find name 'arrow'.\n    :\n 30 │ return arg + \" \" + arrow + \" \" + arg.length.toString();\n    │                    ~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'printStringgood'.\n   :\n 9 │ const a: string = printStringgood(\"hi\");\n   │                   ~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(9,23)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: printString,fibo_ex\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 16011.097299993038,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 23504.715200006962,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 145.51158500611783,
+        "standardDeviation": 7.547234734153165
+      },
+      "annotated": {
+        "size": 1174,
+        "lines": 39,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 189.58997499495746,
+        "standardDeviation": 33.752756092548466
+      },
+      "transpiled": {
+        "size": 10206,
+        "lines": 26,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 173.22779500037433,
+        "standardDeviation": 15.699165813278109
+      },
+      "compilable": {
+        "size": 499,
+        "lines": 17
+      }
+    }
+  },
+  "injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7339.879400014877,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\nmain -> Dependencies: fibo_ex, toString, getArray, printStringgood, printString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 33 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(33,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 30 │ return arg + \" \" + arrowGetter() + \" \" + arg.length.toString();\n    │                    ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13436.523100018501,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 20777.441700041294,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 156.29933000802993,
+        "standardDeviation": 11.577367659291925
+      },
+      "annotated": {
+        "size": 1297,
+        "lines": 41,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 205.07410999536515,
+        "standardDeviation": 17.609066672636704
+      },
+      "transpiled": {
+        "size": 14957,
+        "lines": 5,
+        "output": "Entering function fibo_ex\n8.0\nEntering function getArray\nEntering function printStringgood\n99.0\n5.0\nEntering function printStringgood\n99.0\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 180.3593000024557,
+        "standardDeviation": 31.439757289918926
+      },
+      "compilable": {
+        "size": 1376,
+        "lines": 41
+      }
+    }
+  },
+  "nameFunctionExpressions injectTraceLogs generateMain generateGettersAndSetters performOtherCodeTransformations includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": true,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 6465.24270004034,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\nmain -> Dependencies: fibo_ex, toString, getArray, printStringgood, printString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation failed: 2 compile error(s)\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 33 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(33,5)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 30 │ return arg + \" \" + arrowGetter() + \" \" + arg.length.toString();\n    │                    ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 13311.278299987316,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 19776.939300000668,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 181.89932499229909,
+        "standardDeviation": 18.87933220100156
+      },
+      "annotated": {
+        "size": 1297,
+        "lines": 41,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 180.85905000269412,
+        "standardDeviation": 26.808137504668
+      },
+      "transpiled": {
+        "size": 14957,
+        "lines": 5,
+        "output": "Entering function fibo_ex\n8.0\nEntering function getArray\nEntering function printStringgood\n99.0\n5.0\nEntering function printStringgood\n99.0\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 192.32897999584674,
+        "standardDeviation": 21.581504330264774
+      },
+      "compilable": {
+        "size": 1376,
+        "lines": 41
+      }
+    }
+  },
+  "nameFunctionExpressions injectIntegerCasts injectTraceLogs generateMain generateGettersAndSetters includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": true,
+      "injectIntegerCasts": true,
+      "injectTraceLogs": true,
+      "generateMain": true,
+      "generateGettersAndSetters": true,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 7180.012799978256,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\narrowGetter -> Dependencies: \narrowSetter -> Dependencies: \nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\nmain -> Dependencies: fibo_ex, getArray, printStringgood, printString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation failed: 5 compile error(s)\nERROR TS2304: Cannot find name 'arrowSetter'.\n    :\n 33 │ arrowSetter(\"->\");\n    │ ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(33,5)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 34 │ console.log(fibo_ex(5));\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(34,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 29 │ console.log(a);\n    │             ~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(29,17)\r\n\r\nERROR TS2304: Cannot find name 'arrowGetter'.\n    :\n 30 │ return arg + \" \" + arrowGetter() + \" \" + arg.length.toString();\n    │                    ~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 35 │ console.log(getArray(\"hello\"));\n    │             ~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(35,17)\r\n\r\nFAILURE 5 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood,main\nImportable Functions: arrowGetter,arrowSetter\nAS Compilation failed: 3 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 38 │ console.log(fibo_ex(5));\n    │             ~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(38,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 33 │ console.log(a);\n    │             ~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(33,17)\r\n\r\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 39 │ console.log(getArray(\"hello\"));\n    │             ~~~~~~~~~~~~~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(39,17)\r\n\r\nFAILURE 3 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex\nImportable Functions: arrowGetter,arrowSetter,printStringgood\nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'printStringgood'.\n   :\n 9 │ const a: string = printStringgood(\"hi\");\n   │                   ~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(9,23)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex\nImportable Functions: arrowGetter,arrowSetter,printStringgood\nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 15533.4890999794,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 22714.12249994278,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 176.1030749976635,
+        "standardDeviation": 17.91881018645947
+      },
+      "annotated": {
+        "size": 1258,
+        "lines": 41,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 173.74335000216962,
+        "standardDeviation": 21.900664761698643
+      },
+      "transpiled": {
+        "size": 12299,
+        "lines": 19,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 173.85317500531673,
+        "standardDeviation": 16.572960148309328
+      },
+      "compilable": {
+        "size": 847,
+        "lines": 26
+      }
+    }
+  },
+  "injectTraceLogs includeConsoleFunctions deleteIntermediateFiles": {
+    "settings": {
+      "nameFunctionExpressions": false,
+      "injectIntegerCasts": false,
+      "injectTraceLogs": true,
+      "generateMain": false,
+      "generateGettersAndSetters": false,
+      "performOtherCodeTransformations": false,
+      "includeConsoleFunctions": true,
+      "deleteIntermediateFiles": true
+    },
+    "version": "Tese",
+    "originalFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds.js",
+    "annotatorOutput": "Annotator completed successfully!\n",
+    "annotatorTime": 4222.977999985218,
+    "annotatorSuccess": true,
+    "annotatedFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_annotated.ts",
+    "selectorOutput": "Function Dependencies:\nprintString -> Dependencies: toString\ngetArray -> Dependencies: printStringgood\nfibo_ex -> Dependencies: \nprintStringgood -> Dependencies: toString\n\nTrying to compile functions: printString,getArray,fibo_ex,printStringgood\nImportable Functions: \nAS Compilation failed: 2 compile error(s)\nERROR TS2322: Type 'f64' is not assignable to type '~lib/string/String'.\n    :\n 29 │ console.log(a);\n    │             ~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(29,17)\r\n\r\nERROR TS2304: Cannot find name 'arrow'.\n    :\n 30 │ return arg + \" \" + arrow + \" \" + arg.length.toString();\n    │                    ~~~~~\n    └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(30,24)\r\n\r\nFAILURE 2 compile error(s)\r\n\nTrying to compile functions: printString,getArray,fibo_ex\nImportable Functions: \nAS Compilation failed: 1 compile error(s)\nERROR TS2304: Cannot find name 'printStringgood'.\n   :\n 9 │ const a: string = printStringgood(\"hi\");\n   │                   ~~~~~~~~~~~~~~~\n   └─ in ../examples/custom/my-examples/selector_many_rounds_output/selector_many_rounds_compilable.ts(9,23)\r\n\r\nFAILURE 1 compile error(s)\r\n\nTrying to compile functions: printString,fibo_ex\nImportable Functions: \nAS Compilation successful!\nSelector completed successfully!\n",
+    "selectorTime": 9385.65529999137,
+    "selectorSuccess": true,
+    "outputFolder": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output",
+    "transpiledFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_transpiled.js",
+    "compilableFilePath": "transpilejs\\examples\\custom\\my-examples\\selector_many_rounds_output\\selector_many_rounds_compilable.ts",
+    "transpilationTime": 13609.189099997282,
+    "transpilationSuccess": true,
+    "runner": {
+      "success": true,
+      "ran": true,
+      "runs": 20,
+      "original": {
+        "size": 773,
+        "lines": 31,
+        "output": "8\n99\n5\n99\nhi -> 2\naaa -> 3\n",
+        "averageRuntime": 151.40475499928,
+        "standardDeviation": 8.364487443733417
+      },
+      "annotated": {
+        "size": 1069,
+        "lines": 35,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 157.37416500002146,
+        "standardDeviation": 13.909294251489516
+      },
+      "transpiled": {
+        "size": 10105,
+        "lines": 22,
+        "output": "Entering function fibo_ex\n8\nEntering function getArray\nEntering function printStringgood\n99\n5\nEntering function printStringgood\n99\nhi -> 2\nEntering function printString\naaa -> 3\n",
+        "averageRuntime": 167.04358500391245,
+        "standardDeviation": 17.07894883890149
+      },
+      "compilable": {
+        "size": 499,
+        "lines": 17
+      }
+    }
+  }
+}
